@@ -1,64 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Figure Skating Levels</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #FFFFFF;
-            color: #003366;
-        }
-        .btn {
-            background-color: #E12927;
-            color: white;
-            border: none;
-            padding: 10px 15px;
-            margin: 5px;
-            cursor: pointer;
-        }
-        .card {
-            border: 1px solid #003366;
-            border-radius: 5px;
-            padding: 20px;
-            margin: 10px;
-            display: inline-block;
-        }
-    </style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>U.S. Figure Skating – Test Requirements</title>
+  <meta name="description" content="Browse U.S. Figure Skating test requirements by category and level." />
+  <link rel="stylesheet" href="assets/styles.css" />
 </head>
 <body>
-    <h1>Figure Skating Levels</h1>
-    <div>
-        <button class="btn">Test Requirements</button>
-        <button class="btn">Competition Requirements</button>
+  <header class="site-header">
+    <h1>U.S. Figure Skating – Test Requirements</h1>
+    <p class="subtitle">Browse by category (Ice Dance • Solo Dance • Free Dance • Moves/Skating Skills) and level.</p>
+  </header>
+
+  <nav class="toolbar">
+    <div class="filters">
+      <label>
+        Category:
+        <select id="categoryFilter">
+          <option value="All">All</option>
+          <option value="Ice Dance">Ice Dance (Pattern Dance)</option>
+          <option value="Solo Dance">Solo Dance (Pattern Dance)</option>
+          <option value="Free Dance">Free Dance</option>
+          <option value="Moves">Moves / Skating Skills</option>
+        </select>
+      </label>
+      <label>
+        Level:
+        <select id="levelFilter">
+          <option value="All">All</option>
+          <!-- options injected by JS from data -->
+        </select>
+      </label>
     </div>
-    <div id="disciplines">
-        <div class="card">
-            <h2>Ice Dance</h2>
-            <p>Levels: Beginner, Intermediate, Advanced</p>
-        </div>
-        <div class="card">
-            <h2>Free Skate</h2>
-            <p>Levels: Beginner, Intermediate, Advanced</p>
-        </div>
-        <div class="card">
-            <h2>Solo Ice Dance</h2>
-            <p>Levels: Beginner, Intermediate, Advanced</p>
-        </div>
-        <div class="card">
-            <h2>Pairs</h2>
-            <p>Levels: Beginner, Intermediate, Advanced</p>
-        </div>
+    <div class="search">
+      <input id="searchBox" type="search" placeholder="Search elements (e.g., 'twizzle', 'Dutch Waltz')" />
     </div>
-    <script>
-        const levels = {
-            "Ice Dance": ["Beginner", "Intermediate", "Advanced"],
-            "Free Skate": ["Beginner", "Intermediate", "Advanced"],
-            "Solo Ice Dance": ["Beginner", "Intermediate", "Advanced"],
-            "Pairs": ["Beginner", "Intermediate", "Advanced"]
-        };
-        console.log(levels);
-    </script>
+  </nav>
+
+  <main id="cards" class="cards"></main>
+
+  <aside class="notes">
+    <h2>About the data</h2>
+    <p>Level names follow the current USFS test structure (e.g., Pre‑preliminary → ... → Gold). For background on the naming update (effective July 1, 2023), see the official Test Structure PDF. [4](https://cdn1.sportngin.com/attachments/document/63b5-3318626/Test_Structure___U.S._Figure_Skating.pdf)</p>
+    <p>Always confirm against the latest USFS Rulebook/Test Requirement charts, which are the definitive source. [2](https://www.usfigureskating.org/test-requirements)[3](https://www.usfigureskating.org/sports/2025/8/9/rulebook-bylaws.aspx)</p>
+  </aside>
+
+  <footer class="site-footer">
+    <small>
+      Data compiled from U.S. Figure Skating publications and official charts. Last updated <span id="lastUpdated"></span>.
+      Sources: Test Structure & Levels, Rulebook/Test Requirements, Solo FD Requirement Chart. [1](https://www.usfigureskating.org/sports/2025/12/2/test-structure.aspx)[2](https://www.usfigureskating.org/test-requirements)[5](https://sunshinestatefsc.com/wp-content/uploads/2024/09/Solo-Free-Dance-Test-Requirements.pdf)
+    </small>
+  </footer>
+
+  <script src="assets/main.js" defer></script>
 </body>
 </html>
+:root{
+  --ink:#003366; --bg:#ffffff; --brand:#E12927; --muted:#6b7280; --border:#e5e7eb;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);font-family:system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;line-height:1.55}
+.site-header{padding:2rem 1rem;border-bottom:1px solid var(--border);background:linear-gradient(180deg,#f8fafc,transparent)}
+.site-header h1{margin:0 0 .25rem}
+.subtitle{margin:.25rem 0 0;color:var(--muted)}
+.toolbar{display:flex;gap:1rem;flex-wrap:wrap;align-items:center;justify-content:space-between;padding:1rem;border-bottom:1px solid var(--border)}
+.filters label{margin-right:.75rem}
+select,input[type="search"]{padding:.5rem .65rem;border:1px solid var(--border);border-radius:.5rem;min-width:12rem}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:1rem;padding:1rem}
+.card{border:1px solid var(--ink);border-radius:.75rem;padding:1rem;background:#fff}
+.card h3{margin:.25rem 0 .5rem}
+.badge{display:inline-block;background:var(--brand);color:#fff;padding:.15rem .5rem;border-radius:.35rem;font-size:.75rem;margin-right:.4rem}
+.elements{margin:.5rem 0 0;padding:0 0 0 1rem}
+.elements li{margin:.25rem 0}
+.notes{padding:1rem;border-top:1px solid var(--border);background:#f9fafb}
+.site-footer{padding:1rem;border-top:1px solid var(--border);color:var(--muted)}
+a{color:#0b5bd3}
