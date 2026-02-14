@@ -3,82 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Figure Skating Program Requirements</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f0f0f0;
-        }
-        header {
-            background-color: #4CAF50;
-            color: white;
-            padding: 1em;
-            text-align: center;
-        }
-        .container {
-            max-width: 800px;
-            margin: auto;
-            padding: 20px;
-        }
-        .level-selection {
-            margin: 20px 0;
-        }
-        .level {
-            cursor: pointer;
-            padding: 10px;
-            background: #d0d0d0;
-            margin: 5px 0;
-            text-align: center;
-            border-radius: 5px;
-            transition: background 0.3s;
-        }
-        .level:hover {
-            background: #b0b0b0;
-        }
-        .requirements {
-            display: none;
-            margin-top: 20px;
-            padding: 10px;
-            border: 1px solid #ccc;
-            background: white;
-            border-radius: 5px;
-        }
-    </style>
+    <title>Figure Skating Levels</title>
 </head>
 <body>
-    <header>
-        <h1>Figure Skating Program Requirements</h1>
-    </header>
-    <div class="container">
-        <div class="level-selection">
-            <div class="level" onclick="showRequirements('beginner')">Beginner</div>
-            <div class="level" onclick="showRequirements('intermediate')">Intermediate</div>
-            <div class="level" onclick="showRequirements('advanced')">Advanced</div>
+    <h1>Figure Skating Levels</h1>
+    <div>
+        <h2>Categories</h2>
+        <div>
+            <h3>Freestyle</h3>
+            <select>
+                <option value="level1">Level 1</option>
+                <option value="level2">Level 2</option>
+                <option value="level3">Level 3</option>
+            </select>
         </div>
-        <div id="requirements" class="requirements"></div>
+        <div>
+            <h3>Ice Dance</h3>
+            <select>
+                <option value="level1">Level 1</option>
+                <option value="level2">Level 2</option>
+                <option value="level3">Level 3</option>
+            </select>
+        </div>
+        <div>
+            <h3>Pairs</h3>
+            <select>
+                <option value="level1">Level 1</option>
+                <option value="level2">Level 2</option>
+                <option value="level3">Level 3</option>
+            </select>
+        </div>
     </div>
-    <script>
-        function showRequirements(level) {
-            const requirementsDiv = document.getElementById('requirements');
-            let requirementsText;
-            switch (level) {
-                case 'beginner':
-                    requirementsText = '<h2>Beginner Requirements</h2><p>Learn basic skills and techniques.</p>';
-                    break;
-                case 'intermediate':
-                    requirementsText = '<h2>Intermediate Requirements</h2><p>Develop more complex skills and routines.</p>';
-                    break;
-                case 'advanced':
-                    requirementsText = '<h2>Advanced Requirements</h2><p>Master advanced techniques and performances.</p>';
-                    break;
-                default:
-                    requirementsText = ''; 
-            }
-            requirementsDiv.innerHTML = requirementsText;
-            requirementsDiv.style.display = 'block';
-        }
-    </script>
 </body>
 </html>
