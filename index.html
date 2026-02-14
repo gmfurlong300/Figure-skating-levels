@@ -3,79 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>USFSA Test and Competition Requirements</title>
+    <title>Figure Skating Levels</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             background-color: #FFFFFF;
             color: #003366;
         }
-        h1 {
-            color: #E12927;
+        .btn {
+            background-color: #E12927;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            margin: 5px;
+            cursor: pointer;
         }
-        .category {
-            margin: 20px 0;
-        }
-        .discipline {
-            margin: 10px 0;
+        .card {
+            border: 1px solid #003366;
+            border-radius: 5px;
+            padding: 20px;
+            margin: 10px;
+            display: inline-block;
         }
     </style>
 </head>
 <body>
-    <h1>USFSA Test and Competition Requirements</h1>
-    <div class="category">
-        <h2>Test Requirements</h2>
-        <div class="discipline">
-            <h3>Ice Dance</h3>
-            <p>Beginner: Description of Beginner Ice Dance requirements.</p>
-            <p>Intermediate: Description of Intermediate Ice Dance requirements.</p>
-            <p>Advanced: Description of Advanced Ice Dance requirements.</p>
+    <h1>Figure Skating Levels</h1>
+    <div>
+        <button class="btn">Test Requirements</button>
+        <button class="btn">Competition Requirements</button>
+    </div>
+    <div id="disciplines">
+        <div class="card">
+            <h2>Ice Dance</h2>
+            <p>Levels: Beginner, Intermediate, Advanced</p>
         </div>
-        <div class="discipline">
-            <h3>Free Skate</h3>
-            <p>Beginner: Description of Beginner Free Skate requirements.</p>
-            <p>Intermediate: Description of Intermediate Free Skate requirements.</p>
-            <p>Advanced: Description of Advanced Free Skate requirements.</p>
+        <div class="card">
+            <h2>Free Skate</h2>
+            <p>Levels: Beginner, Intermediate, Advanced</p>
         </div>
-        <div class="discipline">
-            <h3>Solo Ice Dance</h3>
-            <p>Beginner: Description of Beginner Solo Ice Dance requirements.</p>
-            <p>Intermediate: Description of Intermediate Solo Ice Dance requirements.</p>
-            <p>Advanced: Description of Advanced Solo Ice Dance requirements.</p>
+        <div class="card">
+            <h2>Solo Ice Dance</h2>
+            <p>Levels: Beginner, Intermediate, Advanced</p>
         </div>
-        <div class="discipline">
-            <h3>Pairs</h3>
-            <p>Beginner: Description of Beginner Pairs requirements.</p>
-            <p>Intermediate: Description of Intermediate Pairs requirements.</p>
-            <p>Advanced: Description of Advanced Pairs requirements.</p>
+        <div class="card">
+            <h2>Pairs</h2>
+            <p>Levels: Beginner, Intermediate, Advanced</p>
         </div>
     </div>
-    <div class="category">
-        <h2>Competition Requirements</h2>
-        <div class="discipline">
-            <h3>Ice Dance</h3>
-            <p>Beginner: Description of Beginner Ice Dance competition requirements.</p>
-            <p>Intermediate: Description of Intermediate Ice Dance competition requirements.</p>
-            <p>Advanced: Description of Advanced Ice Dance competition requirements.</p>
-        </div>
-        <div class="discipline">
-            <h3>Free Skate</h3>
-            <p>Beginner: Description of Beginner Free Skate competition requirements.</p>
-            <p>Intermediate: Description of Intermediate Free Skate competition requirements.</p>
-            <p>Advanced: Description of Advanced Free Skate competition requirements.</p>
-        </div>
-        <div class="discipline">
-            <h3>Solo Ice Dance</h3>
-            <p>Beginner: Description of Beginner Solo Ice Dance competition requirements.</p>
-            <p>Intermediate: Description of Intermediate Solo Ice Dance competition requirements.</p>
-            <p>Advanced: Description of Advanced Solo Ice Dance competition requirements.</p>
-        </div>
-        <div class="discipline">
-            <h3>Pairs</h3>
-            <p>Beginner: Description of Beginner Pairs competition requirements.</p>
-            <p>Intermediate: Description of Intermediate Pairs competition requirements.</p>
-            <p>Advanced: Description of Advanced Pairs competition requirements.</p>
-        </div>
-    </div>
+    <script>
+        const levels = {
+            "Ice Dance": ["Beginner", "Intermediate", "Advanced"],
+            "Free Skate": ["Beginner", "Intermediate", "Advanced"],
+            "Solo Ice Dance": ["Beginner", "Intermediate", "Advanced"],
+            "Pairs": ["Beginner", "Intermediate", "Advanced"]
+        };
+        console.log(levels);
+    </script>
 </body>
 </html>
