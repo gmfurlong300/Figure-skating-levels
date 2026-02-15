@@ -163,58 +163,559 @@
 },
 
     {
-      "name": "Free Skate",
-      "displayName": "Free Skate",
-      "levels": [
-        { "level": "Pre-Preliminary", "tests": [{ "name": "Pre-Preliminary Free Skate", "elements": ["Placeholder"], "notes": "", "sources": [] }] },
-        { "level": "Preliminary", "tests": [{ "name": "Preliminary Free Skate", "elements": ["Placeholder"], "notes": "", "sources": [] }] },
-        { "level": "Pre-Bronze", "tests": [{ "name": "Pre-Bronze Free Skate", "elements": ["Placeholder"], "notes": "", "sources": [] }] },
-        { "level": "Bronze", "tests": [{ "name": "Bronze Free Skate", "elements": ["Placeholder"], "notes": "", "sources": [] }] },
-        { "level": "Pre-Silver", "tests": [{ "name": "Pre-Silver Free Skate", "elements": ["Placeholder"], "notes": "", "sources": [] }] },
-        { "level": "Silver", "tests": [{ "name": "Silver Free Skate", "elements": ["Placeholder"], "notes": "", "sources": [] }] },
-        { "level": "Pre-Gold", "tests": [{ "name": "Pre-Gold Free Skate", "elements": ["Placeholder"], "notes": "", "sources": [] }] },
-        { "level": "Gold", "tests": [{ "name": "Gold Free Skate", "elements": ["Placeholder"], "notes": "", "sources": [] }] }
+  "name": "Free Skate",
+  "displayName": "Free Skate",
+  "levels": [
+    {
+      "level": "Pre-Preliminary",
+      "tests": [
+        {
+          "name": "Pre-Preliminary Free Skate",
+          "elements": [
+            "Program duration: 1:40 ± 10 seconds",
+            "Jumps: Waltz jump, half jumps, single jumps (no axel required)",
+            "Spins: Two spins in any position (minimum 3 revolutions each)",
+            "Step sequence: One step sequence using full ice",
+            "Restrictions: No axel or double jumps permitted"
+          ],
+          "notes": "Introductory free skate program demonstrating basic jump/spin control.",
+          "sources": [
+            "https://www.usfigureskating.org/test-requirements"
+          ]
+        }
       ]
     },
 
     {
-      "name": "Free Dance",
-      "displayName": "Free Dance",
-      "levels": [
-        { "level": "Bronze", "tests": [{ "name": "Bronze Free Dance", "elements": ["Placeholder"], "notes": "", "sources": [] }] },
-        { "level": "Pre-Silver", "tests": [{ "name": "Pre-Silver Free Dance", "elements": ["Placeholder"], "notes": "", "sources": [] }] },
-        { "level": "Silver", "tests": [{ "name": "Silver Free Dance", "elements": ["Placeholder"], "notes": "", "sources": [] }] },
-        { "level": "Pre-Gold", "tests": [{ "name": "Pre-Gold Free Dance", "elements": ["Placeholder"], "notes": "", "sources": [] }] },
-        { "level": "Gold", "tests": [{ "name": "Gold Free Dance", "elements": ["Placeholder"], "notes": "", "sources": [] }] }
+      "level": "Preliminary",
+      "tests": [
+        {
+          "name": "Preliminary Free Skate",
+          "elements": [
+            "Program duration: 1:40 ± 10 seconds",
+            "Jumps: Single jumps allowed; axel optional",
+            "Combinations: One jump combination or sequence",
+            "Spins: Two spins (minimum 3 revolutions), one may be a combination spin",
+            "Step sequence: One choreographic step sequence",
+            "Restrictions: No double jumps permitted"
+          ],
+          "notes": "Focus on clean single jumps and basic spin variety.",
+          "sources": [
+            "https://www.usfigureskating.org/test-requirements"
+          ]
+        }
       ]
     },
 
     {
-      "name": "Pattern Dance",
-      "displayName": "Pattern Dance",
-      "levels": [
-        { "level": "Preliminary", "tests": [{ "name": "Preliminary Pattern Dance", "elements": ["Placeholder"], "notes": "", "sources": [] }] },
-        { "level": "Pre-Bronze", "tests": [{ "name": "Pre-Bronze Pattern Dance", "elements": ["Placeholder"], "notes": "", "sources": [] }] },
-        { "level": "Bronze", "tests": [{ "name": "Bronze Pattern Dance", "elements": ["Placeholder"], "notes": "", "sources": [] }] },
-        { "level": "Pre-Silver", "tests": [{ "name": "Pre-Silver Pattern Dance", "elements": ["Placeholder"], "notes": "", "sources": [] }] },
-        { "level": "Silver", "tests": [{ "name": "Silver Pattern Dance", "elements": ["Placeholder"], "notes": "", "sources": [] }] },
-        { "level": "Pre-Gold", "tests": [{ "name": "Pre-Gold Pattern Dance", "elements": ["Placeholder"], "notes": "", "sources": [] }] },
-        { "level": "Gold", "tests": [{ "name": "Gold Pattern Dance", "elements": ["Placeholder"], "notes": "", "sources": [] }] },
-        { "level": "International", "tests": [{ "name": "International Pattern Dance", "elements": ["Placeholder"], "notes": "", "sources": [] }] }
+      "level": "Pre-Bronze",
+      "tests": [
+        {
+          "name": "Pre-Bronze Free Skate",
+          "elements": [
+            "Program duration: 1:50 ± 10 seconds",
+            "Jumps: All single jumps permitted, including axel",
+            "Combinations: One jump combination and one jump sequence",
+            "Spins: Two spins (minimum 4 revolutions), one may be a combination spin",
+            "Step sequence: One choreographic step sequence",
+            "Restrictions: No double jumps permitted"
+          ],
+          "notes": "Axel is allowed but not required; quality and control emphasized.",
+          "sources": [
+            "https://www.usfigureskating.org/test-requirements"
+          ]
+        }
       ]
     },
 
     {
-      "name": "Pairs",
-      "displayName": "Pairs",
-      "levels": [
-        { "level": "Bronze", "tests": [{ "name": "Bronze Pairs", "elements": ["Placeholder"], "notes": "", "sources": [] }] },
-        { "level": "Pre-Silver", "tests": [{ "name": "Pre-Silver Pairs", "elements": ["Placeholder"], "notes": "", "sources": [] }] },
-        { "level": "Silver", "tests": [{ "name": "Silver Pairs", "elements": ["Placeholder"], "notes": "", "sources": [] }] },
-        { "level": "Pre-Gold", "tests": [{ "name": "Pre-Gold Pairs", "elements": ["Placeholder"], "notes": "", "sources": [] }] },
-        { "level": "Gold", "tests": [{ "name": "Gold Pairs", "elements": ["Placeholder"], "notes": "", "sources": [] }] }
+      "level": "Bronze",
+      "tests": [
+        {
+          "name": "Bronze Free Skate",
+          "elements": [
+            "Program duration: 2:00 ± 10 seconds",
+            "Jumps: All single jumps permitted, including axel",
+            "Combinations: Up to two jump combinations or sequences",
+            "Spins: Three spins (minimum 4 revolutions), one must be a combination spin",
+            "Step sequence: One choreographic step sequence",
+            "Restrictions: No double jumps permitted"
+          ],
+          "notes": "Highest level before double jumps are introduced.",
+          "sources": [
+            "https://www.usfigureskating.org/test-requirements"
+          ]
+        }
+      ]
+    },
+
+    {
+      "level": "Pre-Silver",
+      "tests": [
+        {
+          "name": "Pre-Silver Free Skate",
+          "elements": [
+            "Program duration: 2:10 ± 10 seconds",
+            "Jumps: Single jumps and axel required; double salchow and double toe loop permitted",
+            "Combinations: Up to two jump combinations or sequences",
+            "Spins: Three spins (minimum 4 revolutions), one must be a combination spin",
+            "Step sequence: One choreographic step sequence",
+            "Restrictions: No double jumps other than 2S or 2T"
+          ],
+          "notes": "First level where double jumps may appear.",
+          "sources": [
+            "https://www.usfigureskating.org/test-requirements"
+          ]
+        }
+      ]
+    },
+
+    {
+      "level": "Silver",
+      "tests": [
+        {
+          "name": "Silver Free Skate",
+          "elements": [
+            "Program duration: 2:20 ± 10 seconds",
+            "Jumps: All single jumps and axel required; double jumps permitted except 2A",
+            "Combinations: Up to two jump combinations or sequences",
+            "Spins: Three spins (minimum 4 revolutions), one must be a combination spin",
+            "Step sequence: One choreographic step sequence",
+            "Restrictions: No double axel or triples"
+          ],
+          "notes": "Introduces more advanced double jumps and spin difficulty.",
+          "sources": [
+            "https://www.usfigureskating.org/test-requirements"
+          ]
+        }
+      ]
+    },
+
+    {
+      "level": "Pre-Gold",
+      "tests": [
+        {
+          "name": "Pre-Gold Free Skate",
+          "elements": [
+            "Program duration: 2:30 ± 10 seconds",
+            "Jumps: All single jumps and double jumps permitted except 2A optional",
+            "Combinations: Up to two jump combinations or sequences",
+            "Spins: Three spins with increased difficulty (minimum 5 revolutions)",
+            "Step sequence: One choreographic step sequence",
+            "Restrictions: No triple jumps"
+          ],
+          "notes": "High-level double jump proficiency expected.",
+          "sources": [
+            "https://www.usfigureskating.org/test-requirements"
+          ]
+        }
+      ]
+    },
+
+    {
+      "level": "Gold",
+      "tests": [
+        {
+          "name": "Gold Free Skate",
+          "elements": [
+            "Program duration: 3:00 ± 10 seconds",
+            "Jumps: All single and double jumps permitted; double axel optional",
+            "Combinations: Up to two jump combinations or sequences",
+            "Spins: Three spins with advanced positions (minimum 5 revolutions)",
+            "Step sequence: One choreographic step sequence",
+            "Restrictions: No triple jumps"
+          ],
+          "notes": "Highest level of Free Skate testing; strong skating skills and double jumps required.",
+          "sources": [
+            "https://www.usfigureskating.org/test-requirements"
+          ]
+        }
+      ]
+    }
+  ]
+},
+
+    {
+  "name": "Free Dance",
+  "displayName": "Free Dance",
+  "levels": [
+    {
+      "level": "Bronze",
+      "tests": [
+        {
+          "name": "Solo Free Dance – Bronze",
+          "elements": [
+            "Program duration: 1:30 ± 10 seconds",
+            "1 short edge element (3–7 seconds)",
+            "1 solo dance spin (minimum 3 revolutions; no flying entry)",
+            "1 step sequence (circular, midline, or diagonal; must include 3-turns and mohawks)",
+            "1 twizzle (not a series; minimum 1 revolution)"
+          ],
+          "notes": "Introductory level of Solo Free Dance. Focus on musicality, basic edge quality, and clean execution of required elements.",
+          "sources": [
+            "https://sunshinestatefsc.com/wp-content/uploads/2024/09/Solo-Free-Dance-Test-Requirements.pdf",
+            "https://www.usfigureskating.org/test-requirements"
+          ]
+        }
+      ]
+    },
+
+    {
+      "level": "Pre-Silver",
+      "tests": [
+        {
+          "name": "Solo Free Dance – Pre-Silver",
+          "elements": [
+            "Program duration: 2:00 ± 10 seconds",
+            "1 short edge element (3–7 seconds)",
+            "1 solo dance spin (minimum 3 revolutions; no flying entry)",
+            "1 step sequence (circular, midline, or diagonal; must include 3-turns, mohawks, and brackets)",
+            "1 twizzle series (minimum 1 revolution on each foot; different entry edge or direction)"
+          ],
+          "notes": "Introduces twizzle series and more complex step sequence requirements.",
+          "sources": [
+            "https://sunshinestatefsc.com/wp-content/uploads/2024/09/Solo-Free-Dance-Test-Requirements.pdf",
+            "https://www.usfigureskating.org/test-requirements"
+          ]
+        }
+      ]
+    },
+
+    {
+      "level": "Silver",
+      "tests": [
+        {
+          "name": "Solo Free Dance – Silver",
+          "elements": [
+            "Program duration: 2:20 ± 10 seconds",
+            "2 short edge elements (each 3–7 seconds; must be in different positions)",
+            "1 solo dance spin (minimum 3 revolutions; no flying entry)",
+            "1 step sequence (circular, midline, or diagonal; must include 3-turns, mohawks, and brackets)",
+            "1 twizzle series (minimum 1 revolution on each foot; different entry edge or direction)"
+          ],
+          "notes": "Requires two short edge elements and more advanced turn variety in the step sequence.",
+          "sources": [
+            "https://sunshinestatefsc.com/wp-content/uploads/2024/09/Solo-Free-Dance-Test-Requirements.pdf",
+            "https://www.usfigureskating.org/test-requirements"
+          ]
+        }
+      ]
+    },
+
+    {
+      "level": "Pre-Gold",
+      "tests": [
+        {
+          "name": "Solo Free Dance – Pre-Gold",
+          "elements": [
+            "Program duration: 2:40 ± 10 seconds",
+            "Combo edge element + short edge element OR 3 short edge elements (each 3–7 seconds; combo ≤12 seconds total)",
+            "1 solo dance spin (minimum 3 revolutions; no flying entry)",
+            "1 step sequence including rockers, counters, and choctaws",
+            "1 twizzle series (multi-directional or multi-entry)"
+          ],
+          "notes": "First level requiring rockers, counters, and choctaws in the step sequence.",
+          "sources": [
+            "https://sunshinestatefsc.com/wp-content/uploads/2024/09/Solo-Free-Dance-Test-Requirements.pdf",
+            "https://www.usfigureskating.org/test-requirements"
+          ]
+        }
+      ]
+    },
+
+    {
+      "level": "Gold",
+      "tests": [
+        {
+          "name": "Solo Free Dance – Gold",
+          "elements": [
+            "Program duration: 3:10 ± 10 seconds",
+            "Combo edge element + short edge element OR 3 short edge elements (3–7 seconds each; combo ≤12 seconds total)",
+            "1 solo dance spin (minimum 3 revolutions; no flying entry)",
+            "1 step sequence including rockers, choctaws, and twizzles",
+            "1 twizzle series (multi-rev, multi-directional, or complex entry)"
+          ],
+          "notes": "Highest level of Solo Free Dance. Requires mastery of advanced turns, musical interpretation, and strong edge control.",
+          "sources": [
+            "https://sunshinestatefsc.com/wp-content/uploads/2024/09/Solo-Free-Dance-Test-Requirements.pdf",
+            "https://www.usfigureskating.org/test-requirements"
+          ]
+        }
+      ]
+    }
+  ]
+},
+
+    {
+  "name": "Pattern Dance",
+  "displayName": "Pattern Dance",
+  "levels": [
+    {
+      "level": "Preliminary",
+      "tests": [
+        {
+          "name": "Preliminary Pattern Dance",
+          "elements": [
+            "Dutch Waltz",
+            "Canasta Tango",
+            "Rhythm Blues"
+          ],
+          "notes": "Introductory pattern dances focusing on basic timing, edges, and pattern accuracy.",
+          "sources": [
+            "https://www.usfigureskating.org/test-requirements"
+          ]
+        }
+      ]
+    },
+
+    {
+      "level": "Pre-Bronze",
+      "tests": [
+        {
+          "name": "Pre-Bronze Pattern Dance",
+          "elements": [
+            "Swing Dance",
+            "Cha Cha",
+            "Fiesta Tango"
+          ],
+          "notes": "Introduces more complex timing and introductory partnering skills.",
+          "sources": [
+            "https://www.usfigureskating.org/test-requirements"
+          ]
+        }
+      ]
+    },
+
+    {
+      "level": "Bronze",
+      "tests": [
+        {
+          "name": "Bronze Pattern Dance",
+          "elements": [
+            "Hickory Hoedown",
+            "Willow Waltz",
+            "Ten-Fox"
+          ],
+          "notes": "Requires stronger edge control and more precise pattern placement.",
+          "sources": [
+            "https://www.usfigureskating.org/test-requirements"
+          ]
+        }
+      ]
+    },
+
+    {
+      "level": "Pre-Silver",
+      "tests": [
+        {
+          "name": "Pre-Silver Pattern Dance",
+          "elements": [
+            "Fourteenstep",
+            "European Waltz",
+            "Foxtrot"
+          ],
+          "notes": "First level with more demanding partnering holds and deeper edges.",
+          "sources": [
+            "https://www.usfigureskating.org/test-requirements"
+          ]
+        }
+      ]
+    },
+
+    {
+      "level": "Silver",
+      "tests": [
+        {
+          "name": "Silver Pattern Dance",
+          "elements": [
+            "American Waltz",
+            "Tango",
+            "Rocker Foxtrot"
+          ],
+          "notes": "Requires strong unison, deeper edges, and more complex timing.",
+          "sources": [
+            "https://www.usfigureskating.org/test-requirements"
+          ]
+        }
+      ]
+    },
+
+    {
+      "level": "Pre-Gold",
+      "tests": [
+        {
+          "name": "Pre-Gold Pattern Dance",
+          "elements": [
+            "Kilian",
+            "Blues",
+            "Paso Doble"
+          ],
+          "notes": "Dances introduce more advanced partnering, power, and expression.",
+          "sources": [
+            "https://www.usfigureskating.org/test-requirements"
+          ]
+        }
+      ]
+    },
+
+    {
+      "level": "Gold",
+      "tests": [
+        {
+          "name": "Gold Pattern Dance",
+          "elements": [
+            "Viennese Waltz",
+            "Westminster Waltz",
+            "Quickstep",
+            "Argentine Tango"
+          ],
+          "notes": "Highest domestic pattern dance level; requires exceptional edge quality and partnering.",
+          "sources": [
+            "https://www.usfigureskating.org/test-requirements"
+          ]
+        }
+      ]
+    },
+
+    {
+      "level": "International",
+      "tests": [
+        {
+          "name": "International Pattern Dance",
+          "elements": [
+            "Tango Romantica",
+            "Rhumba",
+            "Golden Waltz",
+            "Midnight Blues",
+            "Silver Samba",
+            "Yankee Polka"
+          ],
+          "notes": "International dances follow ISU rules; highest difficulty in timing, partnering, and edge control.",
+          "sources": [
+            "https://www.usfigureskating.org/test-requirements",
+            "https://www.isu.org"
+          ]
+        }
+      ]
+    }
+  ]
+},
+
+    {
+  "name": "Pairs",
+  "displayName": "Pairs",
+  "levels": [
+    {
+      "level": "Bronze",
+      "tests": [
+        {
+          "name": "Bronze Pairs",
+          "elements": [
+            "Program duration: 2:00 ± 10 seconds",
+            "Side-by-side jumps: Single jumps only (no axel required)",
+            "Throw jumps: Single throw jump permitted",
+            "Lifts: One lift (waist-level only; no one-arm holds)",
+            "Pair spin: One pair spin (minimum 3 revolutions)",
+            "Step sequence: One choreographic step sequence",
+            "Restrictions: No overhead lifts, no death spirals, no double jumps"
+          ],
+          "notes": "Introductory pairs level focusing on unison, timing, and basic pair elements.",
+          "sources": [
+            "https://www.usfigureskating.org/test-requirements"
+          ]
+        }
+      ]
+    },
+
+    {
+      "level": "Pre-Silver",
+      "tests": [
+        {
+          "name": "Pre-Silver Pairs",
+          "elements": [
+            "Program duration: 2:10 ± 10 seconds",
+            "Side-by-side jumps: Single jumps including axel permitted",
+            "Throw jumps: Single throw jumps permitted",
+            "Lifts: One lift (waist or shoulder level; no one-arm holds)",
+            "Pair spin: One pair spin (minimum 3 revolutions)",
+            "Step sequence: One choreographic step sequence",
+            "Restrictions: No overhead lifts, no death spirals, no double jumps"
+          ],
+          "notes": "Introduces more advanced lifts and allows axel jumps.",
+          "sources": [
+            "https://www.usfigureskating.org/test-requirements"
+          ]
+        }
+      ]
+    },
+
+    {
+      "level": "Silver",
+      "tests": [
+        {
+          "name": "Silver Pairs",
+          "elements": [
+            "Program duration: 2:20 ± 10 seconds",
+            "Side-by-side jumps: Single jumps including axel required; double salchow and double toe loop permitted",
+            "Throw jumps: Single throw jumps required; double throw jumps permitted",
+            "Lifts: One overhead lift permitted (no difficult variations)",
+            "Pair spin: One pair spin (minimum 4 revolutions)",
+            "Step sequence: One choreographic step sequence",
+            "Restrictions: No death spirals"
+          ],
+          "notes": "First level allowing overhead lifts and double jumps.",
+          "sources": [
+            "https://www.usfigureskating.org/test-requirements"
+          ]
+        }
+      ]
+    },
+
+    {
+      "level": "Pre-Gold",
+      "tests": [
+        {
+          "name": "Pre-Gold Pairs",
+          "elements": [
+            "Program duration: 2:30 ± 10 seconds",
+            "Side-by-side jumps: Single jumps and selected double jumps permitted (no 2A)",
+            "Throw jumps: Single and double throw jumps permitted",
+            "Lifts: One overhead lift with variations permitted",
+            "Pair spin: One pair spin with advanced positions (minimum 4 revolutions)",
+            "Step sequence: One choreographic step sequence",
+            "Restrictions: No triple jumps, no death spirals"
+          ],
+          "notes": "Higher difficulty in lifts and throws; strong unison expected.",
+          "sources": [
+            "https://www.usfigureskating.org/test-requirements"
+          ]
+        }
+      ]
+    },
+
+    {
+      "level": "Gold",
+      "tests": [
+        {
+          "name": "Gold Pairs",
+          "elements": [
+            "Program duration: 3:00 ± 10 seconds",
+            "Side-by-side jumps: All single and double jumps permitted; double axel optional",
+            "Throw jumps: Single and double throw jumps permitted",
+            "Lifts: One overhead lift with advanced variations",
+            "Pair spin: One pair spin with advanced positions (minimum 5 revolutions)",
+            "Death spiral: One death spiral (any permitted entry)",
+            "Step sequence: One choreographic step sequence",
+            "Restrictions: No triple jumps"
+          ],
+          "notes": "Highest domestic pairs test level; requires strong pair unison, advanced lifts, and clean execution.",
+          "sources": [
+            "https://www.usfigureskating.org/test-requirements"
+          ]
+        }
       ]
     }
   ]
 }
+
 
