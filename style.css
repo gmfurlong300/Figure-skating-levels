@@ -5,14 +5,14 @@
   justify-content: center;
   align-items: center;
 
-  width: 100%;
-  padding: 20px 0;   /* 3× bigger than before */
-  margin: 10px 0;
+  height: 180px;     /* ← makes them tall */
+  width: 100%;       /* fills the grid cell */
+  padding: 20px;     /* inner spacing */
 
   background-color: #0066cc;
   color: white;
   font-weight: bold;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 
   border: none;
   border-radius: 12px;
@@ -20,4 +20,3 @@
 
   transition: background-color 0.2s ease;
 }
-
