@@ -3,65 +3,96 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>USFS Test Requirements Browser</title>
+  <title>U.S. Figure Skating Test Requirements</title>
 
   <style>
-    :root{
-      --ink:#003366; --bg:#ffffff; --brand:#E12927; --muted:#6b7280; --border:#e5e7eb;
+    body {
+      font-family: system-ui, sans-serif;
+      margin: 0;
+      background: #f8fafc;
+      color: #003366;
     }
-    *{box-sizing:border-box}
-    html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);font-family:system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;line-height:1.55}
-    .site-header{padding:2rem 1rem;border-bottom:1px solid var(--border);background:linear-gradient(180deg,#f8fafc,transparent)}
-    .site-header h1{margin:0 0 .25rem}
-    .subtitle{margin:.25rem 0 0;color:var(--muted)}
-    .toolbar{display:flex;gap:1rem;flex-wrap:wrap;align-items:center;justify-content:space-between;padding:1rem;border-bottom:1px solid var(--border)}
-    .filters label{margin-right:.75rem}
-    select,input[type="search"]{padding:.5rem .65rem;border:1px solid var(--border);border-radius:.5rem;min-width:12rem}
-    .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:1rem;padding:1rem}
-    .card{border:1px solid var(--ink);border-radius:.75rem;padding:1rem;background:#fff}
-    .card h3{margin:.25rem 0 .5rem}
-    .badge{display:inline-block;background:var(--brand);color:#fff;padding:.15rem .5rem;border-radius:.35rem;font-size:.75rem;margin-right:.4rem}
-    .elements{margin:.5rem 0 0;padding:0 0 0 1rem}
-    .elements li{margin:.25rem 0}
-    .notes{padding:1rem;border-top:1px solid var(--border);background:#f9fafb}
-    .site-footer{padding:1rem;border-top:1px solid var(--border);color:var(--muted)}
-    a{color:#0b5bd3}
+    header {
+      padding: 1.5rem;
+      background: #e8eef7;
+      border-bottom: 2px solid #cbd5e1;
+      text-align: center;
+    }
+    h1 { margin: 0; }
+    .screen { display: none; padding: 2rem; }
+    .active { display: block; }
+    .button-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+    button {
+      padding: 1rem;
+      font-size: 1.1rem;
+      border-radius: 0.5rem;
+      border: 2px solid #003366;
+      background: white;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #003366;
+      color: white;
+    }
+    .back-btn {
+      margin-bottom: 1rem;
+      padding: 0.5rem 1rem;
+      background: #003366;
+      color: white;
+      border-radius: 0.4rem;
+      border: none;
+      cursor: pointer;
+    }
+    .card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 0.5rem;
+      border: 1px solid #cbd5e1;
+      max-width: 700px;
+    }
+    ul { margin-top: 0.5rem; }
   </style>
 </head>
 
 <body>
 
-<header class="site-header">
+<header>
   <h1>U.S. Figure Skating Test Requirements</h1>
-  <p class="subtitle">Interactive browser for Skating Skills, Ice Dance, Solo Dance, and Free Dance</p>
-  <p class="subtitle">Last updated: <span id="lastUpdated"></span></p>
 </header>
 
-<section class="toolbar">
-  <div class="filters">
-    <label>
-      Category:
-      <select id="categoryFilter">
-        <option value="All">All</option>
-      </select>
-    </label>
-
-    <label>
-      Level:
-      <select id="levelFilter">
-        <option value="All">All</option>
-      </select>
-    </label>
-  </div>
-
-  <input id="searchBox" type="search" placeholder="Search tests or elements…" />
+<!-- HOME SCREEN -->
+<section id="homeScreen" class="screen active">
+  <h2>Select a Category</h2>
+  <div class="button-grid" id="categoryButtons"></div>
 </section>
 
-<section id="cards" class="cards"></section>
+<!-- LEVEL SCREEN -->
+<section id="levelScreen" class="screen">
+  <button class="back-btn" onclick="goHome()">← Back</button>
+  <h2 id="levelTitle"></h2>
+  <div class="button-grid" id="levelButtons"></div>
+</section>
 
-<footer class="site-footer">
-  <p>Data compiled from U.S. Figure Skating public rulebook resources.</p>
-</footer>
+<!-- TEST DETAILS SCREEN -->
+<section id="testScreen" class="screen">
+  <button class="back-btn" onclick="goLevels()">← Back</button>
+  <h2 id="testTitle"></h2>
+  <div class="card">
+    <h3>Elements</h3>
+    <ul id="testElements"></ul>
+
+    <h3>Notes</h3>
+    <p id="testNotes"></p>
+
+    <h3>Sources</h3>
+    <ul id="testSources"></ul>
+  </div>
+</section>
 
 <script src="script.js"></script>
 </body>
