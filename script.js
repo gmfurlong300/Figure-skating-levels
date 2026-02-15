@@ -2,7 +2,7 @@ let data = null;
 let currentCategory = null;
 
 async function loadData() {
-  const res = await fetch("data/tests.json");
+  const res = await fetch(`data/tests.json?v=${Date.now()}`);
   data = await res.json();
   buildCategoryButtons();
 }
