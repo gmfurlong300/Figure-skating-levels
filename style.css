@@ -21,4 +21,7 @@
 #levelButtons button:hover {
   background-color: #004c99;
 }
+body {
+  background: hotpink;
+}
 
