@@ -18,7 +18,12 @@ function buildCategoryButtons() {
 
   data.categories.forEach(cat => {
     const btn = document.createElement("button");
-    btn.textContent = cat.displayName;
+btn.innerHTML = `
+  <img src="assets/${cat.name.toLowerCase().replace(/ /g, '-')}.png" 
+       alt="${cat.displayName} icon" 
+       class="btn-icon">
+  <span>${cat.displayName}</span>
+`;
     btn.onclick = () => openCategory(cat.name);
     container.appendChild(btn);
   });
