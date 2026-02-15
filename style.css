@@ -17,10 +17,7 @@
   transition: background-color 0.2s ease;
 }
 
-#categoryButtons button:hover,
-#levelButtons button:hover {
-  background-color: #004c99;
-}
+
 body {
   background: hotpink;
 }
