@@ -1,3 +1,10 @@
+.button-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* exactly 5 buttons per row */
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
 #categoryButtons button,
 #levelButtons button {
   display: flex;
@@ -20,9 +27,4 @@
 
   transition: background-color 0.2s ease;
 }
-.button-grid {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr); /* exactly 5 buttons per row */
-  gap: 1rem;
-  margin-top: 2rem;
-}
+
