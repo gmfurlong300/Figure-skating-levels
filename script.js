@@ -18,18 +18,18 @@ function buildCategoryButtons() {
 
   data.categories.forEach(cat => {
     const btn = document.createElement("button");
-btn.innerHTML = `
-  <span>${cat.displayName}</span>
-  <img src="assets/${cat.name.toLowerCase().replace(/ /g, '-')}.png" 
-       class="btn-icon" alt="">
-`;
 
-  <span>${cat.displayName}</span>
-`;
+    btn.innerHTML = `
+      <span>${cat.displayName}</span>
+      <img src="assets/${cat.name.toLowerCase().replace(/ /g, '-')}.png"
+           class="btn-icon" alt="">
+    `;
+
     btn.onclick = () => openCategory(cat.name);
     container.appendChild(btn);
   });
 }
+
 
 function openCategory(categoryName) {
   currentCategory = data.categories.find(c => c.name === categoryName);
