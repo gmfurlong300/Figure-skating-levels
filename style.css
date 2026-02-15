@@ -1,8 +1,12 @@
-.card h3,
-.card p,
-.card li {
-  color: #003366;
+.card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid #cbd5e1;
+  max-width: 700px;
+  color: #003366;   /* dark blue text so content is visible */
 }
+
 
 body {
   font-family: system-ui, sans-serif;
