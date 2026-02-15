@@ -1,3 +1,16 @@
+body {
+  font-family: system-ui, sans-serif;
+  margin: 0;
+  background: #003366;   /* deep USFS blue */
+  color: white;          /* text readable on blue */
+}
+
+header {
+  padding: 1.5rem;
+  background: #cc0000;   /* USFS red */
+  border-bottom: 2px solid #990000;
+  text-align: center;
+}
 .button-grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr); /* exactly 5 buttons per row */
