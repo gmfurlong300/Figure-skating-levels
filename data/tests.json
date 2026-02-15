@@ -1,6 +1,9 @@
-{ "categories": [ { "name": "Skating Skills",
-  "displayName": "Skating Skills",
-  "levels": [
+{
+  "categories": [
+    {
+      "name": "Skating Skills",
+      "displayName": "Skating Skills",
+      "levels": [
     {
       "level": "Pre-Preliminary",
       "tests": [
