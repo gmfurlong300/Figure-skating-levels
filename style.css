@@ -1,18 +1,23 @@
 #categoryButtons button,
 #levelButtons button {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
   width: 100%;
-  padding: 20px 0;
+  padding: 60px 0;   /* 3× bigger than before */
   margin: 10px 0;
 
   background-color: #0066cc;
   color: white;
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 
   border: none;
-  border-radius: 8px;
+  border-radius: 12px;
   cursor: pointer;
 
   transition: background-color 0.2s ease;
 }
+
