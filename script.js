@@ -69,7 +69,7 @@ test.elements.forEach(e => {
     // Pattern Dance elements with name + rulebookPage
     if (e.rulebookPage) {
       const a = document.createElement("a");
-      a.href = `https://www.usfigureskating.org/sites/default/files/media-files/2025-26%20Rulebook%2008-05-25.pdf#page=${e.rulebookPage}`;
+      a.href = `https://www.usfigureskating.org/sites/default/files/media-files/2025-26%20Rulebook.pdf#page=${e.rulebookPage}`;
       a.target = "_blank";
       a.textContent = e.name;
       li.appendChild(a);
@@ -90,7 +90,7 @@ rulebookLinkContainer.innerHTML = ""; // clear previous
 
 if (test.rulebookPage) {
   const a = document.createElement("a");
-  a.href = `https://www.usfigureskating.org/sites/default/files/media-files/2024-25%20Rulebook.pdf#page=${test.rulebookPage}`;
+  a.href = `https://www.usfigureskating.org/sites/default/files/media-files/2025-26%20Rulebook.pdf#page=${e.rulebookPage}`;
   a.target = "_blank";
   a.textContent = `View Pattern Diagram in Rulebook (page ${test.rulebookPage})`;
   rulebookLinkContainer.appendChild(a);
