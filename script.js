@@ -67,6 +67,8 @@ function openTest(levelObj) {
   // Notes
   document.getElementById("testNotes").textContent = test.notes || "—";
 
+ const rulebookLinkContainer = document.getElementById("rulebookLink"); rulebookLinkContainer.innerHTML = ""; // clear previous if (test.rulebookPage) { const a = document.createElement("a"); a.href = `https://www.usfigureskating.org/sites/default/files/media-files/2024-25%20Rulebook.pdf#page=${test.rulebookPage}`; a.target = "_blank"; a.textContent = `View Pattern Diagram in Rulebook (page ${test.rulebookPage})`; rulebookLinkContainer.appendChild(a); }
+
   // Sources
   const srcList = document.getElementById("testSources");
   srcList.innerHTML = "";
