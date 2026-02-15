@@ -69,4 +69,13 @@ header {
 #levelButtons button:hover .btn-icon {
   filter: brightness(0) invert(1); /* turns icons white on hover */
 }
+.rulebook-link a {
+  color: #005bbb;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.rulebook-link a:hover {
+  text-decoration: underline;
+}
 
