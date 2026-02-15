@@ -43,16 +43,15 @@ function openCategory(categoryName) {
   currentCategory.levels.forEach(level => {
     const btn = document.createElement("button");
     btn.textContent = level.level;
-    btn.onclick = () => openTest(level.level);
+    btn.onclick = () => openTest(level);   // ← pass whole object
     container.appendChild(btn);
   });
 
   showScreen("levelScreen");
 }
 
-function openTest(levelName) {
-  const levelObj = currentCategory.levels.find(l => l.level === levelName);
-  const test = levelObj.tests[0];
+function openTest(levelObj) {
+  const test = levelObj.tests[0];  // ← no more .find()
 
   document.getElementById("testTitle").textContent = test.name;
 
@@ -83,6 +82,7 @@ function openTest(levelName) {
 
   showScreen("testScreen");
 }
+
 
 function goHome() {
   showScreen("homeScreen");
