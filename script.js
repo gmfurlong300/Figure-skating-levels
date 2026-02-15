@@ -56,6 +56,7 @@ function openTest(levelObj) {
   document.getElementById("testTitle").textContent = test.name;
 
   // Elements
+// Elements
 const elList = document.getElementById("testElements");
 elList.innerHTML = "";
 
@@ -63,8 +64,10 @@ test.elements.forEach(e => {
   const li = document.createElement("li");
 
   if (typeof e === "string") {
+    // Skating Skills, Free Skate, Pairs, etc.
     li.textContent = e;
   } else if (e && typeof e === "object") {
+    // Pattern Dance elements with name + rulebookPage
     const a = document.createElement("a");
     a.href = `https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf#page=${e.rulebookPage}`;
     a.target = "_blank";
@@ -74,7 +77,6 @@ test.elements.forEach(e => {
 
   elList.appendChild(li);
 });
-
 
 
   // Notes
