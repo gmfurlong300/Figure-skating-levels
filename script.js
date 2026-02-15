@@ -1,77 +1,88 @@
-(async function () {
-  const cardsEl = document.getElementById('cards');
-  const categoryFilter = document.getElementById('categoryFilter');
-  const levelFilter = document.getElementById('levelFilter');
-  const searchBox = document.getElementById('searchBox');
+let data = null;
+let currentCategory = null;
 
-  let data;
-  try {
-    const res = await fetch('data/tests.json');
-    data = await res.json();
-    document.getElementById('lastUpdated').textContent = data.meta?.lastUpdated || '';
-  } catch (e) {
-    cardsEl.innerHTML = `<p>Failed to load test data. Please refresh.</p>`;
-    return;
-  }
+async function loadData() {
+  const res = await fetch("data/tests.json");
+  data = await res.json();
+  buildCategoryButtons();
+}
 
-  // Build a unique list of levels across categories
-  const allLevels = new Set();
-  (data.categories || []).forEach(cat => (cat.levels || []).forEach(l => allLevels.add(l.level)));
-  [...allLevels].sort((a,b)=>a.localeCompare(b)).forEach(level => {
-    const opt = document.createElement('option');
-    opt.value = level; opt.textContent = level;
-    levelFilter.appendChild(opt);
+function showScreen(id) {
+  document.querySelectorAll(".screen").forEach(s => s.classList.remove("active"));
+  document.getElementById(id).classList.add("active");
+}
+
+function buildCategoryButtons() {
+  const container = document.getElementById("categoryButtons");
+  container.innerHTML = "";
+
+  data.categories.forEach(cat => {
+    const btn = document.createElement("button");
+    btn.textContent = cat.displayName;
+    btn.onclick = () => openCategory(cat.name);
+    container.appendChild(btn);
+  });
+}
+
+function openCategory(categoryName) {
+  currentCategory = data.categories.find(c => c.name === categoryName);
+
+  document.getElementById("levelTitle").textContent =
+    `${currentCategory.displayName} – Select a Level`;
+
+  const container = document.getElementById("levelButtons");
+  container.innerHTML = "";
+
+  currentCategory.levels.forEach(level => {
+    const btn = document.createElement("button");
+    btn.textContent = level.level;
+    btn.onclick = () => openTest(level.level);
+    container.appendChild(btn);
   });
 
-  // Populate category filter
-  (data.categories || []).forEach(cat => {
-    const opt = document.createElement('option');
-    opt.value = cat.name;
-    opt.textContent = cat.displayName || cat.name;
-    categoryFilter.appendChild(opt);
+  showScreen("levelScreen");
+}
+
+function openTest(levelName) {
+  const levelObj = currentCategory.levels.find(l => l.level === levelName);
+  const test = levelObj.tests[0];
+
+  document.getElementById("testTitle").textContent = test.name;
+
+  // Elements
+  const elList = document.getElementById("testElements");
+  elList.innerHTML = "";
+  test.elements.forEach(e => {
+    const li = document.createElement("li");
+    li.textContent = e;
+    elList.appendChild(li);
   });
 
-  function render() {
-    const catVal = categoryFilter.value;
-    const levelVal = levelFilter.value;
-    const q = searchBox.value.trim().toLowerCase();
+  // Notes
+  document.getElementById("testNotes").textContent = test.notes || "—";
 
-    const cards = [];
+  // Sources
+  const srcList = document.getElementById("testSources");
+  srcList.innerHTML = "";
+  test.sources.forEach(s => {
+    const li = document.createElement("li");
+    const a = document.createElement("a");
+    a.href = s;
+    a.target = "_blank";
+    a.textContent = s;
+    li.appendChild(a);
+    srcList.appendChild(li);
+  });
 
-    (data.categories || []).forEach(cat => {
-      if (catVal !== 'All' && cat.name !== catVal) return;
+  showScreen("testScreen");
+}
 
-      (cat.levels || []).forEach(levelObj => {
-        if (levelVal !== 'All' && levelObj.level !== levelVal) return;
+function goHome() {
+  showScreen("homeScreen");
+}
 
-        (levelObj.tests || []).forEach(test => {
-          const hay = [test.name, ...(test.elements||[])].join(' ').toLowerCase();
-          if (q && !hay.includes(q)) return;
+function goLevels() {
+  showScreen("levelScreen");
+}
 
-          cards.push(`
-            <article class="card">
-              <div class="badges">
-                <span class="badge">${cat.displayName || cat.name}</span>
-                <span class="badge">${levelObj.level}</span>
-              </div>
-              <h3>${test.name}</h3>
-              <ul class="elements">
-                ${(test.elements||[]).map(e => `<li>${e}</li>`).join('')}
-              </ul>
-              ${test.notes ? `<p><em>${test.notes}</em></p>` : ''}
-              ${Array.isArray(test.sources) ? `<p>Sources: ${test.sources.map((s,i)=>`<a href="${s}" target="_blank" rel="noopener">[${i+1}]</a>`).join(' ')}</p>` : ''}
-            </article>
-          `);
-        });
-      });
-    });
-
-    cardsEl.innerHTML = cards.length ? cards.join('') : `<p>No results. Try clearing filters or search.</p>`;
-  }
-
-  categoryFilter.addEventListener('change', render);
-  levelFilter.addEventListener('change', render);
-  searchBox.addEventListener('input', render);
-
-  render();
-})();
+loadData();
