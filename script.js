@@ -19,9 +19,11 @@ function buildCategoryButtons() {
   data.categories.forEach(cat => {
     const btn = document.createElement("button");
 btn.innerHTML = `
+  <span>${cat.displayName}</span>
   <img src="assets/${cat.name.toLowerCase().replace(/ /g, '-')}.png" 
-       alt="${cat.displayName} icon" 
-       class="btn-icon">
+       class="btn-icon" alt="">
+`;
+
   <span>${cat.displayName}</span>
 `;
     btn.onclick = () => openCategory(cat.name);
