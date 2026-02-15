@@ -1,3 +1,9 @@
+.card h3,
+.card p,
+.card li {
+  color: #003366;
+}
+
 body {
   font-family: system-ui, sans-serif;
   margin: 0;
@@ -25,12 +31,6 @@ header {
   object-fit: contain;
   margin-top: auto;   /* pushes icon to bottom */
 }
-.card h3,
-.card p,
-.card li {
-  color: #003366;
-}
-
 /* BUTTON STYLE */
 #categoryButtons button,
 #levelButtons button {
