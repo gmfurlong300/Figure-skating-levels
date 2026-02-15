@@ -5,6 +5,12 @@
   margin-top: 2rem;
 }
 .btn-icon {
+  width: 48px;     /* adjust as needed */
+  height: 48px;
+  object-fit: contain;
+}
+
+.btn-icon {
   width: 50px;
   height: 50px;
   margin-bottom: 12px;
@@ -14,23 +20,33 @@
 #categoryButtons button,
 #levelButtons button {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: column;     /* vertical layout */
+  justify-content: space-between; /* pushes text to top, icon to bottom */
   align-items: center;
 
-  height: 180px;     /* ← makes them tall */
-  width: 100%;       /* fills the grid cell */
-  padding: 20px;     /* inner spacing */
+  height: 180px;
+  padding: 20px;
 
-  background-color: #0066cc;
-  color: white;
+  background-color: white;     /* new look */
+  color: #003366;
   font-weight: bold;
   font-size: 1.2rem;
 
-  border: none;
+  border: 3px solid #003366;   /* dark blue outline */
   border-radius: 12px;
   cursor: pointer;
 
-  transition: background-color 0.2s ease;
+  transition: background-color 0.2s ease, color 0.2s ease;
 }
+#categoryButtons button:hover,
+#levelButtons button:hover {
+  background-color: #003366;
+  color: white;
+}
+
+#categoryButtons button:hover .btn-icon,
+#levelButtons button:hover .btn-icon {
+  filter: brightness(0) invert(1); /* turns icons white on hover */
+}
+
 
