@@ -450,7 +450,7 @@
   ]
 },
 
-    {
+   {
   "name": "Pattern Dance",
   "displayName": "Pattern Dance",
   "levels": [
@@ -460,9 +460,9 @@
         {
           "name": "Preliminary Pattern Dance",
           "elements": [
-            "Dutch Waltz",
-            "Canasta Tango",
-            "Rhythm Blues"
+            { "name": "Dutch Waltz", "rulebookPage": 340 },
+            { "name": "Canasta Tango", "rulebookPage": 324 },
+            { "name": "Rhythm Blues", "rulebookPage": 344 }
           ],
           "notes": "Introductory pattern dances focusing on basic timing, edges, and pattern accuracy.",
           "sources": [
@@ -478,9 +478,9 @@
         {
           "name": "Pre-Bronze Pattern Dance",
           "elements": [
-            "Swing Dance",
-            "Cha Cha",
-            "Fiesta Tango"
+            { "name": "Swing Dance", "rulebookPage": 346 },
+            { "name": "Cha Cha", "rulebookPage": 348 },
+            { "name": "Fiesta Tango", "rulebookPage": 350 }
           ],
           "notes": "Introduces more complex timing and introductory partnering skills.",
           "sources": [
@@ -496,9 +496,9 @@
         {
           "name": "Bronze Pattern Dance",
           "elements": [
-            "Hickory Hoedown",
-            "Willow Waltz",
-            "Ten-Fox"
+            { "name": "Hickory Hoedown", "rulebookPage": 352 },
+            { "name": "Willow Waltz", "rulebookPage": 354 },
+            { "name": "Ten Fox", "rulebookPage": 356 }
           ],
           "notes": "Requires stronger edge control and more precise pattern placement.",
           "sources": [
@@ -514,9 +514,9 @@
         {
           "name": "Pre-Silver Pattern Dance",
           "elements": [
-            "Fourteenstep",
-            "European Waltz",
-            "Foxtrot"
+            { "name": "Fourteenstep", "rulebookPage": 359 },
+            { "name": "European Waltz", "rulebookPage": 362 },
+            { "name": "Foxtrot", "rulebookPage": 365 }
           ],
           "notes": "First level with more demanding partnering holds and deeper edges.",
           "sources": [
@@ -532,9 +532,9 @@
         {
           "name": "Silver Pattern Dance",
           "elements": [
-            "American Waltz",
-            "Tango",
-            "Rocker Foxtrot"
+            { "name": "American Waltz", "rulebookPage": 368 },
+            { "name": "Tango", "rulebookPage": 371 },
+            { "name": "Rocker Foxtrot", "rulebookPage": 374 }
           ],
           "notes": "Requires strong unison, deeper edges, and more complex timing.",
           "sources": [
@@ -550,9 +550,10 @@
         {
           "name": "Pre-Gold Pattern Dance",
           "elements": [
-            "Kilian",
-            "Blues",
-            "Paso Doble"
+            { "name": "Kilian", "rulebookPage": 377 },
+            { "name": "Blues", "rulebookPage": 380 },
+            { "name": "Paso Doble (Lead)", "rulebookPage": 383 },
+            { "name": "Paso Doble (Follow)", "rulebookPage": 384 }
           ],
           "notes": "Dances introduce more advanced partnering, power, and expression.",
           "sources": [
@@ -568,10 +569,13 @@
         {
           "name": "Gold Pattern Dance",
           "elements": [
-            "Viennese Waltz",
-            "Westminster Waltz",
-            "Quickstep",
-            "Argentine Tango"
+            { "name": "Viennese Waltz (Lead)", "rulebookPage": 391 },
+            { "name": "Viennese Waltz (Follow)", "rulebookPage": 392 },
+            { "name": "Westminster Waltz (Lead)", "rulebookPage": 395 },
+            { "name": "Westminster Waltz (Follow)", "rulebookPage": 396 },
+            { "name": "Quickstep", "rulebookPage": 399 },
+            { "name": "Argentine Tango (Lead)", "rulebookPage": 402 },
+            { "name": "Argentine Tango (Follow)", "rulebookPage": 403 }
           ],
           "notes": "Highest domestic pattern dance level; requires exceptional edge quality and partnering.",
           "sources": [
@@ -587,12 +591,17 @@
         {
           "name": "International Pattern Dance",
           "elements": [
-            "Tango Romantica",
-            "Rhumba",
-            "Golden Waltz",
-            "Midnight Blues",
-            "Silver Samba",
-            "Yankee Polka"
+            { "name": "Tango Romantica (Lead)", "rulebookPage": 444 },
+            { "name": "Tango Romantica (Follow)", "rulebookPage": 445 },
+            { "name": "Rhumba", "rulebookPage": 436 },
+            { "name": "Golden Waltz (Lead)", "rulebookPage": 423 },
+            { "name": "Golden Waltz (Follow)", "rulebookPage": 424 },
+            { "name": "Midnight Blues (Lead)", "rulebookPage": 428 },
+            { "name": "Midnight Blues (Follow)", "rulebookPage": 429 },
+            { "name": "Silver Samba (Lead)", "rulebookPage": 439 },
+            { "name": "Silver Samba (Follow)", "rulebookPage": 440 },
+            { "name": "Yankee Polka (Lead)", "rulebookPage": 456 },
+            { "name": "Yankee Polka (Follow)", "rulebookPage": 457 }
           ],
           "notes": "International dances follow ISU rules; highest difficulty in timing, partnering, and edge control.",
           "sources": [
