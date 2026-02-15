@@ -66,7 +66,7 @@ test.elements.forEach(e => {
     li.textContent = e;
   } else if (e && typeof e === "object") {
     const a = document.createElement("a");
-    a.href = `https://www.usfigureskating.org/sites/default/files/media-files/2025-26%20Rulebook.pdf#page=${e.rulebookPage}`;
+    a.href = `https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf#page=${e.rulebookPage}`;
     a.target = "_blank";
     a.textContent = e.name;
     li.appendChild(a);
@@ -85,7 +85,7 @@ rulebookLinkContainer.innerHTML = ""; // clear previous
 
 if (test.rulebookPage) {
   const a = document.createElement("a");
-  a.href = `https://www.usfigureskating.org/sites/default/files/media-files/2025-26%20Rulebook.pdf#page=${e.rulebookPage}`;
+  a.href = `https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf#page=${e.rulebookPage}`;
   a.target = "_blank";
   a.textContent = `View Pattern Diagram in Rulebook (page ${test.rulebookPage})`;
   rulebookLinkContainer.appendChild(a);
