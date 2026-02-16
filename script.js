@@ -17,7 +17,7 @@ function buildCategoryButtons() {
   container.innerHTML = "";
 
   data.categories.forEach(cat => {
-const btn = document.createElement("button");
+    const btn = document.createElement("button");
 
     btn.innerHTML = `
       <span>${cat.displayName}</span>
@@ -29,7 +29,6 @@ const btn = document.createElement("button");
     container.appendChild(btn);
   });
 }
-
 
 function openCategory(categoryName) {
   currentCategory = data.categories.find(c => c.name === categoryName);
@@ -43,9 +42,12 @@ function openCategory(categoryName) {
   currentCategory.levels.forEach(level => {
     const btn = document.createElement("button");
     btn.textContent = level.level;
-    btn.onclick = () => openTest(level);   // ← pass whole object
+    btn.onclick = () => openTest(level);
     container.appendChild(btn);
   });
+
+  // Hide description when leaving home
+  document.getElementById("description").classList.add("hidden");
 
   showScreen("levelScreen");
 }
@@ -55,11 +57,9 @@ function openTest(levelObj) {
 
   document.getElementById("testTitle").textContent = test.name;
 
-  // S3 Rulebook URL
   const RULEBOOK_BASE =
     "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/usafs.sidearmsports.com/documents/2025/8/9/2025-26_Rulebook.pdf";
 
-  // Elements
   const elList = document.getElementById("testElements");
   elList.innerHTML = "";
 
@@ -79,7 +79,6 @@ function openTest(levelObj) {
     elList.appendChild(li);
   });
 
-  // Pattern Diagram Link
   const rulebookLinkContainer = document.getElementById("rulebookLink");
   rulebookLinkContainer.innerHTML = "";
 
@@ -91,10 +90,8 @@ function openTest(levelObj) {
     rulebookLinkContainer.appendChild(a);
   }
 
-  // Notes
   document.getElementById("testNotes").textContent = test.notes || "—";
 
-  // Sources
   const srcList = document.getElementById("testSources");
   srcList.innerHTML = "";
   test.sources.forEach(s => {
@@ -107,7 +104,24 @@ function openTest(levelObj) {
     srcList.appendChild(li);
   });
 
+  // Hide description on test screen
+  document.getElementById("description").classList.add("hidden");
+
   showScreen("testScreen");
 }
-loadData();
 
+/* -------------------------
+   BACK BUTTON FUNCTIONS
+-------------------------- */
+
+function goHome() {
+  showScreen("homeScreen");
+  document.getElementById("description").classList.remove("hidden");
+}
+
+function goLevels() {
+  showScreen("levelScreen");
+  document.getElementById("description").classList.add("hidden");
+}
+
+loadData();
