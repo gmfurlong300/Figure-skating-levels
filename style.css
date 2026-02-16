@@ -30,7 +30,7 @@ body:not(.home) #description {
 /* Style the About This Site section */
 #description {
   background-color: white;
-  color: ##003366; /* blue text */
+  color: #003366; /* blue text */
   padding: 1.5rem;
   border-radius: 8px;
   margin: 2rem auto;
