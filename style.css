@@ -25,10 +25,10 @@ header {
 #description {
   background-color: white;
   color: #004aad;
-  padding: 1.5rem;
+  padding: 1rem;
   border-radius: 8px;
   margin: 2rem auto;
-  max-width: 1000px; /* wider box */
+  max-width: 1500px; /* wider box */
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
