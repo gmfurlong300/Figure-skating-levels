@@ -1,167 +1,195 @@
 {
   "categories": [
+{
+  "categories": [
     {
       "name": "Skating Skills",
       "displayName": "Skating Skills",
       "levels": [
-    {
-      "level": "Pre-Preliminary",
-      "tests": [
         {
-          "name": "Pre-Preliminary Skating Skills",
-          "elements": [
-            "Forward perimeter stroking",
-            "Basic consecutive edges (R/L)",
-            "Forward right and left foot spirals",
-            "Waltz eight"
-          ],
-          "notes": "Formerly Pre-Preliminary Moves in the Field. Basic edge quality, posture, and control emphasized.",
-         "rulebookPage": 251,
-"sources": [
-
-            "https://www.usfigureskating.org/test-requirements"
+          "level": "Pre-Preliminary",
+          "tests": [
+            {
+              "name": "Pre-Preliminary Skating Skills",
+              "elements": [
+                "Forward perimeter stroking",
+                "Basic consecutive edges (R/L)",
+                "Forward right and left foot spirals",
+                "Waltz eight"
+              ],
+              "notes": "Formerly Pre-Preliminary Moves in the Field. Basic edge quality, posture, and control emphasized.",
+              "rulebookPage": 251,
+              "sources": [
+                "https://www.usfigureskating.org/test-requirements"
+              ]
+            }
+          ]
+        },
+        {
+          "level": "Preliminary",
+          "tests": [
+            {
+              "name": "Preliminary Skating Skills",
+              "elements": [
+                "Forward and backward crossovers (clockwise & counterclockwise)",
+                "Forward power stroking",
+                "Backward perimeter power stroking",
+                "Forward circle eight",
+                "Alternating forward three turns"
+              ],
+              "notes": "Focus on power generation, clean edges, and controlled turns.",
+              "sources": [
+                "https://www.usfigureskating.org/test-requirements"
+              ]
+            }
+          ]
+        },
+        {
+          "level": "Pre-Bronze",
+          "tests": [
+            {
+              "name": "Pre-Bronze Skating Skills",
+              "elements": [
+                "Forward and backward cross strokes",
+                "Forward power three turns",
+                "Backward circle eight",
+                "Forward and backward spirals",
+                "Forward double three turns (R/L)"
+              ],
+              "notes": "Introduces more advanced power generation and turn control.",
+              "sources": [
+                "https://www.usfigureskating.org/test-requirements"
+              ]
+            }
+          ]
+        },
+        {
+          "level": "Bronze",
+          "tests": [
+            {
+              "name": "Bronze Skating Skills",
+              "elements": [
+                "Forward and backward power change of edge pulls",
+                "Backward double three turns (R/L)",
+                "Forward and backward power circles",
+                "Forward and backward brackets",
+                "Spiral sequence"
+              ],
+              "notes": "Requires stronger edge control and mastery of brackets.",
+              "sources": [
+                "https://www.usfigureskating.org/test-requirements"
+              ]
+            }
+          ]
+        },
+        {
+          "level": "Pre-Silver",
+          "tests": [
+            {
+              "name": "Pre-Silver Skating Skills",
+              "elements": [
+                "Forward and backward rockers (R/L)",
+                "Forward and backward counters (R/L)",
+                "Power double three turns",
+                "Forward and backward power rockers",
+                "Serpentine step sequence"
+              ],
+              "notes": "Introduces rockers and counters with power and flow.",
+              "sources": [
+                "https://www.usfigureskating.org/test-requirements"
+              ]
+            }
+          ]
+        },
+        {
+          "level": "Silver",
+          "tests": [
+            {
+              "name": "Silver Skating Skills",
+              "elements": [
+                "Forward and backward power counters",
+                "Forward and backward power rockers",
+                "Power brackets",
+                "Twizzle sequence (R/L)",
+                "Field move sequence (spirals, spread eagles, Ina Bauers)"
+              ],
+              "notes": "Requires mastery of multi-turn sequences and strong body alignment.",
+              "sources": [
+                "https://www.usfigureskating.org/test-requirements"
+              ]
+            }
+          ]
+        },
+        {
+          "level": "Pre-Gold",
+          "tests": [
+            {
+              "name": "Pre-Gold Skating Skills",
+              "elements": [
+                "Forward and backward double rockers",
+                "Forward and backward double counters",
+                "Power rocker–counter sequence",
+                "Twizzle series (multi-rev)",
+                "Edge field sequence"
+              ],
+              "notes": "High-level edge control and multi-turn sequences required.",
+              "sources": [
+                "https://www.usfigureskating.org/test-requirements"
+              ]
+            }
+          ]
+        },
+        {
+          "level": "Gold",
+          "tests": [
+            {
+              "name": "Gold Skating Skills",
+              "elements": [
+                "Sustained edge step sequence",
+                "Spiral sequence",
+                "Back outside power double threes → power double inside rockers",
+                "Back inside power double threes → power double outside rockers",
+                "Serpentine step sequence"
+              ],
+              "notes": "Highest level of Skating Skills (formerly Senior Moves in the Field). Requires exceptional edge quality, power, and control.",
+              "sources": [
+                "https://www.usfigureskating.org/test-requirements"
+              ]
+            }
           ]
         }
       ]
     },
 
     {
-      "level": "Preliminary",
-      "tests": [
-        {
-          "name": "Preliminary Skating Skills",
-          "elements": [
-            "Forward and backward crossovers (clockwise & counterclockwise)",
-            "Forward power stroking",
-            "Backward perimeter power stroking",
-            "Forward circle eight",
-            "Alternating forward three turns"
-          ],
-          "notes": "Focus on power generation, clean edges, and controlled turns.",
-          "sources": [
-            "https://www.usfigureskating.org/test-requirements"
-          ]
-        }
+      "name": "Free Skate",
+      "displayName": "Free Skate",
+      "levels": [
+        ... **(your Free Skate levels go here unchanged)** ...
       ]
     },
 
     {
-      "level": "Pre-Bronze",
-      "tests": [
-        {
-          "name": "Pre-Bronze Skating Skills",
-          "elements": [
-            "Forward and backward cross strokes",
-            "Forward power three turns",
-            "Backward circle eight",
-            "Forward and backward spirals",
-            "Forward double three turns (R/L)"
-          ],
-          "notes": "Introduces more advanced power generation and turn control.",
-          "sources": [
-            "https://www.usfigureskating.org/test-requirements"
-          ]
-        }
+      "name": "Free Dance",
+      "displayName": "Free Dance",
+      "levels": [
+        ... **(your Free Dance levels go here unchanged)** ...
       ]
     },
 
     {
-      "level": "Bronze",
-      "tests": [
-        {
-          "name": "Bronze Skating Skills",
-          "elements": [
-            "Forward and backward power change of edge pulls",
-            "Backward double three turns (R/L)",
-            "Forward and backward power circles",
-            "Forward and backward brackets",
-            "Spiral sequence"
-          ],
-          "notes": "Requires stronger edge control and mastery of brackets.",
-          "sources": [
-            "https://www.usfigureskating.org/test-requirements"
-          ]
-        }
+      "name": "Pattern Dance",
+      "displayName": "Pattern Dance",
+      "levels": [
+        ... **(your Pattern Dance levels go here unchanged)** ...
       ]
     },
 
     {
-      "level": "Pre-Silver",
-      "tests": [
-        {
-          "name": "Pre-Silver Skating Skills",
-          "elements": [
-            "Forward and backward rockers (R/L)",
-            "Forward and backward counters (R/L)",
-            "Power double three turns",
-            "Forward and backward power rockers",
-            "Serpentine step sequence"
-          ],
-          "notes": "Introduces rockers and counters with power and flow.",
-          "sources": [
-            "https://www.usfigureskating.org/test-requirements"
-          ]
-        }
-      ]
-    },
-
-    {
-      "level": "Silver",
-      "tests": [
-        {
-          "name": "Silver Skating Skills",
-          "elements": [
-            "Forward and backward power counters",
-            "Forward and backward power rockers",
-            "Power brackets",
-            "Twizzle sequence (R/L)",
-            "Field move sequence (spirals, spread eagles, Ina Bauers)"
-          ],
-          "notes": "Requires mastery of multi-turn sequences and strong body alignment.",
-          "sources": [
-            "https://www.usfigureskating.org/test-requirements"
-          ]
-        }
-      ]
-    },
-
-    {
-      "level": "Pre-Gold",
-      "tests": [
-        {
-          "name": "Pre-Gold Skating Skills",
-          "elements": [
-            "Forward and backward double rockers",
-            "Forward and backward double counters",
-            "Power rocker–counter sequence",
-            "Twizzle series (multi-rev)",
-            "Edge field sequence"
-          ],
-          "notes": "High-level edge control and multi-turn sequences required.",
-          "sources": [
-            "https://www.usfigureskating.org/test-requirements"
-          ]
-        }
-      ]
-    },
-
-    {
-      "level": "Gold",
-      "tests": [
-        {
-          "name": "Gold Skating Skills",
-          "elements": [
-            "Sustained edge step sequence",
-            "Spiral sequence",
-            "Back outside power double threes → power double inside rockers",
-            "Back inside power double threes → power double outside rockers",
-            "Serpentine step sequence"
-          ],
-          "notes": "Highest level of Skating Skills (formerly Senior Moves in the Field). Requires exceptional edge quality, power, and control.",
-          "sources": [
-            "https://www.usfigureskating.org/test-requirements"
-          ]
-        }
+      "name": "Pairs",
+      "displayName": "Pairs",
+      "levels": [
+        ... **(your Pairs levels go here unchanged)** ...
       ]
     }
   ]
