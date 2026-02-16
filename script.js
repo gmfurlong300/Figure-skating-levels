@@ -17,7 +17,7 @@ function buildCategoryButtons() {
   container.innerHTML = "";
 
   data.categories.forEach(cat => {
-     btn = document.createElement("button");
+const btn = document.createElement("button");
 
     btn.innerHTML = `
       <span>${cat.displayName}</span>
