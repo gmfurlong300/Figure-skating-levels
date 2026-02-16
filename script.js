@@ -109,4 +109,5 @@ function openTest(levelObj) {
 
   showScreen("testScreen");
 }
+loadData();
 
