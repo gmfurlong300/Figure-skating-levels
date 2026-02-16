@@ -51,67 +51,61 @@ function openCategory(categoryName) {
 }
 
 function openTest(levelObj) {
-  const test = levelObj.tests[0];  // ← no more .find()
+  const test = levelObj.tests[0];
 
   document.getElementById("testTitle").textContent = test.name;
 
-// S3 Rulebook URL
-const RULEBOOK_BASE =
-  "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/usafs.sidearmsports.com/documents/2025/8/9/2025-26_Rulebook.pdf";
+  // S3 Rulebook URL
+  const RULEBOOK_BASE =
+    "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/usafs.sidearmsports.com/documents/2025/8/9/2025-26_Rulebook.pdf";
 
-// Elements
-test.elements.forEach(e => {
-  const li = document.createElement("li");
+  // Elements
+  const elList = document.getElementById("testElements");
+  elList.innerHTML = "";
 
-  if (typeof e === "string") {
-    li.textContent = e;
-  } else if (e && typeof e === "object") {
+  test.elements.forEach(e => {
+    const li = document.createElement("li");
+
+    if (typeof e === "string") {
+      li.textContent = e;
+    } else if (e && typeof e === "object") {
+      const a = document.createElement("a");
+      a.href = `${RULEBOOK_BASE}#page=${e.rulebookPage}`;
+      a.target = "_blank";
+      a.textContent = e.name;
+      li.appendChild(a);
+    }
+
+    elList.appendChild(li);
+  });
+
+  // Pattern Diagram Link
+  const rulebookLinkContainer = document.getElementById("rulebookLink");
+  rulebookLinkContainer.innerHTML = "";
+
+  if (test.rulebookPage) {
     const a = document.createElement("a");
-    a.href = `${RULEBOOK_BASE}#page=${e.rulebookPage}`;
+    a.href = `${RULEBOOK_BASE}#page=${test.rulebookPage}`;
     a.target = "_blank";
-    a.textContent = e.name;
-    li.appendChild(a);
+    a.textContent = `View Pattern Diagram in Rulebook (page ${test.rulebookPage})`;
+    rulebookLinkContainer.appendChild(a);
   }
 
-  elList.appendChild(li);
-});
+  // Notes
+  document.getElementById("testNotes").textContent = test.notes || "—";
 
-// Pattern Diagram Link
-const rulebookLinkContainer = document.getElementById("rulebookLink");
-rulebookLinkContainer.innerHTML = "";
+  // Sources
+  const srcList = document.getElementById("testSources");
+  srcList.innerHTML = "";
+  test.sources.forEach(s => {
+    const li = document.createElement("li");
+    const a = document.createElement("a");
+    a.href = s;
+    a.target = "_blank";
+    a.textContent = s;
+    li.appendChild(a);
+    srcList.appendChild(li);
+  });
 
-if (test.rulebookPage) {
-  const a = document.createElement("a");
-  a.href = `${RULEBOOK_BASE}#page=${test.rulebookPage}`;
-  a.target = "_blank";
-  a.textContent = `View Pattern Diagram in Rulebook (page ${test.rulebookPage})`;
-  rulebookLinkContainer.appendChild(a);
+  showScreen("testScreen");
 }
-
-// Notes
-document.getElementById("testNotes").textContent = test.notes || "—";
-
-// Rulebook link (Pattern Diagram) rulebookLinkContainer.innerHTML = ""; // do NOT redeclare it
-  
-if (test.rulebookPage) {
-  const a = document.createElement("a");
-  a.href = `${RULEBOOK_BASE}#page=${test.rulebookPage}`;
-  a.target = "_blank";
-  a.textContent = `View Pattern Diagram in Rulebook (page ${test.rulebookPage})`;
-  rulebookLinkContainer.appendChild(a);
-}
-
-// Sources
-const srcList = document.getElementById("testSources");
-srcList.innerHTML = "";
-test.sources.forEach(s => {
-  const li = document.createElement("li");
-  const a = document.createElement("a");
-  a.href = s;
-  a.target = "_blank";
-  a.textContent = s;
-  li.appendChild(a);
-  srcList.appendChild(li);
-});
-
-showScreen("testScreen");
