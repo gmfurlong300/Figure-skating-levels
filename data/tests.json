@@ -162,40 +162,6 @@
     },
 
     {
-      "name": "Free Skate",
-      "displayName": "Free Skate",
-      "levels": [
-        ... **(your Free Skate levels go here unchanged)** ...
-      ]
-    },
-
-    {
-      "name": "Free Dance",
-      "displayName": "Free Dance",
-      "levels": [
-        ... **(your Free Dance levels go here unchanged)** ...
-      ]
-    },
-
-    {
-      "name": "Pattern Dance",
-      "displayName": "Pattern Dance",
-      "levels": [
-        ... **(your Pattern Dance levels go here unchanged)** ...
-      ]
-    },
-
-    {
-      "name": "Pairs",
-      "displayName": "Pairs",
-      "levels": [
-        ... **(your Pairs levels go here unchanged)** ...
-      ]
-    }
-  ]
-},
-
-    {
   "name": "Free Skate",
   "displayName": "Free Skate",
   "levels": [
@@ -218,7 +184,6 @@
         }
       ]
     },
-
     {
       "level": "Preliminary",
       "tests": [
@@ -239,7 +204,6 @@
         }
       ]
     },
-
     {
       "level": "Pre-Bronze",
       "tests": [
@@ -260,7 +224,6 @@
         }
       ]
     },
-
     {
       "level": "Bronze",
       "tests": [
@@ -281,7 +244,6 @@
         }
       ]
     },
-
     {
       "level": "Pre-Silver",
       "tests": [
@@ -302,7 +264,6 @@
         }
       ]
     },
-
     {
       "level": "Silver",
       "tests": [
@@ -323,7 +284,6 @@
         }
       ]
     },
-
     {
       "level": "Pre-Gold",
       "tests": [
@@ -344,7 +304,6 @@
         }
       ]
     },
-
     {
       "level": "Gold",
       "tests": [
@@ -392,7 +351,6 @@
         }
       ]
     },
-
     {
       "level": "Pre-Silver",
       "tests": [
@@ -413,7 +371,6 @@
         }
       ]
     },
-
     {
       "level": "Silver",
       "tests": [
@@ -434,7 +391,6 @@
         }
       ]
     },
-
     {
       "level": "Pre-Gold",
       "tests": [
@@ -455,7 +411,6 @@
         }
       ]
     },
-
     {
       "level": "Gold",
       "tests": [
@@ -479,161 +434,150 @@
   ]
 },
 
-{
-  "categories": [
+   {
+  "name": "Pattern Dance",
+  "displayName": "Pattern Dance",
+  "levels": [
     {
-      "name": "Pattern Dance",
-      "displayName": "Pattern Dance",
-      "levels": [
+      "level": "Preliminary",
+      "tests": [
         {
-          "level": "Preliminary",
-          "tests": [
-            {
-              "name": "Preliminary Pattern Dance",
-              "elements": [
-                { "name": "Dutch Waltz", "rulebookPage": 340, "display": "Dutch Waltz (Page 340)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" },
-                { "name": "Canasta Tango", "rulebookPage": 324, "display": "Canasta Tango (Page 324)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" },
-                { "name": "Rhythm Blues", "rulebookPage": 344, "display": "Rhythm Blues (Page 344)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" }
-              ],
-              "notes": "Introductory pattern dances focusing on basic timing, edges, and pattern accuracy.",
-              "sources": ["https://www.usfigureskating.org/test-requirements"]
-            }
-          ]
-        },
-
+          "name": "Preliminary Pattern Dance",
+          "elements": [
+            { "name": "Dutch Waltz", "rulebookPage": 340, "display": "Dutch Waltz (Page 340)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" },
+            { "name": "Canasta Tango", "rulebookPage": 324, "display": "Canasta Tango (Page 324)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" },
+            { "name": "Rhythm Blues", "rulebookPage": 344, "display": "Rhythm Blues (Page 344)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" }
+          ],
+          "notes": "Introductory pattern dances focusing on basic timing, edges, and pattern accuracy.",
+          "sources": ["https://www.usfigureskating.org/test-requirements"]
+        }
+      ]
+    },
+    {
+      "level": "Pre-Bronze",
+      "tests": [
         {
-          "level": "Pre-Bronze",
-          "tests": [
-            {
-              "name": "Pre-Bronze Pattern Dance",
-              "elements": [
-                { "name": "Swing Dance", "rulebookPage": 346, "display": "Swing Dance (Page 346)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" },
-                { "name": "Cha Cha", "rulebookPage": 348, "display": "Cha Cha (Page 348)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" },
-                { "name": "Fiesta Tango", "rulebookPage": 350, "display": "Fiesta Tango (Page 350)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" }
-              ],
-              "notes": "Introduces more complex timing and introductory partnering skills.",
-              "sources": ["https://www.usfigureskating.org/test-requirements"]
-            }
-          ]
-        },
-
+          "name": "Pre-Bronze Pattern Dance",
+          "elements": [
+            { "name": "Swing Dance", "rulebookPage": 346, "display": "Swing Dance (Page 346)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" },
+            { "name": "Cha Cha", "rulebookPage": 348, "display": "Cha Cha (Page 348)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" },
+            { "name": "Fiesta Tango", "rulebookPage": 350, "display": "Fiesta Tango (Page 350)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" }
+          ],
+          "notes": "Introduces more complex timing and introductory partnering skills.",
+          "sources": ["https://www.usfigureskating.org/test-requirements"]
+        }
+      ]
+    },
+    {
+      "level": "Bronze",
+      "tests": [
         {
-          "level": "Bronze",
-          "tests": [
-            {
-              "name": "Bronze Pattern Dance",
-              "elements": [
-                { "name": "Hickory Hoedown", "rulebookPage": 352, "display": "Hickory Hoedown (Page 352)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" },
-                { "name": "Willow Waltz", "rulebookPage": 354, "display": "Willow Waltz (Page 354)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" },
-                { "name": "Ten Fox", "rulebookPage": 356, "display": "Ten Fox (Page 356)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" }
-              ],
-              "notes": "Requires stronger edge control and more precise pattern placement.",
-              "sources": ["https://www.usfigureskating.org/test-requirements"]
-            }
-          ]
-        },
-
+          "name": "Bronze Pattern Dance",
+          "elements": [
+            { "name": "Hickory Hoedown", "rulebookPage": 352, "display": "Hickory Hoedown (Page 352)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" },
+            { "name": "Willow Waltz", "rulebookPage": 354, "display": "Willow Waltz (Page 354)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" },
+            { "name": "Ten Fox", "rulebookPage": 356, "display": "Ten Fox (Page 356)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" }
+          ],
+          "notes": "Requires stronger edge control and more precise pattern placement.",
+          "sources": ["https://www.usfigureskating.org/test-requirements"]
+        }
+      ]
+    },
+    {
+      "level": "Pre-Silver",
+      "tests": [
         {
-          "level": "Pre-Silver",
-          "tests": [
-            {
-              "name": "Pre-Silver Pattern Dance",
-              "elements": [
-                { "name": "Fourteenstep", "rulebookPage": 359, "display": "Fourteenstep (Page 359)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" },
-                { "name": "European Waltz", "rulebookPage": 362, "display": "European Waltz (Page 362)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" },
-                { "name": "Foxtrot", "rulebookPage": 365, "display": "Foxtrot (Page 365)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" }
-              ],
-              "notes": "First level with more demanding partnering holds and deeper edges.",
-              "sources": ["https://www.usfigureskating.org/test-requirements"]
-            }
-          ]
-        },
-
+          "name": "Pre-Silver Pattern Dance",
+          "elements": [
+            { "name": "Fourteenstep", "rulebookPage": 359, "display": "Fourteenstep (Page 359)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" },
+            { "name": "European Waltz", "rulebookPage": 362, "display": "European Waltz (Page 362)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" },
+            { "name": "Foxtrot", "rulebookPage": 365, "display": "Foxtrot (Page 365)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" }
+          ],
+          "notes": "First level with more demanding partnering holds and deeper edges.",
+          "sources": ["https://www.usfigureskating.org/test-requirements"]
+        }
+      ]
+    },
+    {
+      "level": "Silver",
+      "tests": [
         {
-          "level": "Silver",
-          "tests": [
-            {
-              "name": "Silver Pattern Dance",
-              "elements": [
-                { "name": "American Waltz", "rulebookPage": 368, "display": "American Waltz (Page 368)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" },
-                { "name": "Tango", "rulebookPage": 371, "display": "Tango (Page 371)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" },
-                { "name": "Rocker Foxtrot", "rulebookPage": 374, "display": "Rocker Foxtrot (Page 374)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" }
-              ],
-              "notes": "Requires strong unison, deeper edges, and more complex timing.",
-              "sources": ["https://www.usfigureskating.org/test-requirements"]
-            }
-          ]
-        },
-
+          "name": "Silver Pattern Dance",
+          "elements": [
+            { "name": "American Waltz", "rulebookPage": 368, "display": "American Waltz (Page 368)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" },
+            { "name": "Tango", "rulebookPage": 371, "display": "Tango (Page 371)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" },
+            { "name": "Rocker Foxtrot", "rulebookPage": 374, "display": "Rocker Foxtrot (Page 374)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" }
+          ],
+          "notes": "Requires strong unison, deeper edges, and more complex timing.",
+          "sources": ["https://www.usfigureskating.org/test-requirements"]
+        }
+      ]
+    },
+    {
+      "level": "Pre-Gold",
+      "tests": [
         {
-          "level": "Pre-Gold",
-          "tests": [
-            {
-              "name": "Pre-Gold Pattern Dance",
-              "elements": [
-                { "name": "Kilian", "rulebookPage": 377, "display": "Kilian (Page 377)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" },
-                { "name": "Blues", "rulebookPage": 380, "display": "Blues (Page 380)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" },
-                { "name": "Paso Doble (Lead)", "rulebookPage": 383, "display": "Paso Doble (Lead: Page 383)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" },
-                { "name": "Paso Doble (Follow)", "rulebookPage": 384, "display": "Paso Doble (Follow: Page 384)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" }
-              ],
-              "notes": "Dances introduce more advanced partnering, power, and expression.",
-              "sources": ["https://www.usfigureskating.org/test-requirements"]
-            }
-          ]
-        },
-
+          "name": "Pre-Gold Pattern Dance",
+          "elements": [
+            { "name": "Kilian", "rulebookPage": 377, "display": "Kilian (Page 377)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" },
+            { "name": "Blues", "rulebookPage": 380, "display": "Blues (Page 380)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" },
+            { "name": "Paso Doble (Lead)", "rulebookPage": 383, "display": "Paso Doble (Lead: Page 383)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" },
+            { "name": "Paso Doble (Follow)", "rulebookPage": 384, "display": "Paso Doble (Follow: Page 384)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" }
+          ],
+          "notes": "Dances introduce more advanced partnering, power, and expression.",
+          "sources": ["https://www.usfigureskating.org/test-requirements"]
+        }
+      ]
+    },
+    {
+      "level": "Gold",
+      "tests": [
         {
-          "level": "Gold",
-          "tests": [
-            {
-              "name": "Gold Pattern Dance",
-              "elements": [
-                { "name": "Viennese Waltz (Lead)", "rulebookPage": 391, "display": "Viennese Waltz (Lead: Page 391)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" },
-                { "name": "Viennese Waltz (Follow)", "rulebookPage": 392, "display": "Viennese Waltz (Follow: Page 392)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" },
-                { "name": "Westminster Waltz (Lead)", "rulebookPage": 395, "display": "Westminster Waltz (Lead: Page 395)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" },
-                { "name": "Westminster Waltz (Follow)", "rulebookPage": 396, "display": "Westminster Waltz (Follow: Page 396)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" },
-                { "name": "Quickstep", "rulebookPage": 399, "display": "Quickstep (Page 399)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" },
-                { "name": "Argentine Tango (Lead)", "rulebookPage": 402, "display": "Argentine Tango (Lead: Page 402)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" },
-                { "name": "Argentine Tango (Follow)", "rulebookPage": 403, "display": "Argentine Tango (Follow: Page 403)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" }
-              ],
-              "notes": "Highest domestic pattern dance level; requires exceptional edge quality and partnering.",
-              "sources": ["https://www.usfigureskating.org/test-requirements"]
-            }
-          ]
-        },
-
+          "name": "Gold Pattern Dance",
+          "elements": [
+            { "name": "Viennese Waltz (Lead)", "rulebookPage": 391, "display": "Viennese Waltz (Lead: Page 391)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" },
+            { "name": "Viennese Waltz (Follow)", "rulebookPage": 392, "display": "Viennese Waltz (Follow: Page 392)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" },
+            { "name": "Westminster Waltz (Lead)", "rulebookPage": 395, "display": "Westminster Waltz (Lead: Page 395)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" },
+            { "name": "Westminster Waltz (Follow)", "rulebookPage": 396, "display": "Westminster Waltz (Follow: Page 396)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" },
+            { "name": "Quickstep", "rulebookPage": 399, "display": "Quickstep (Page 399)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" },
+            { "name": "Argentine Tango (Lead)", "rulebookPage": 402, "display": "Argentine Tango (Lead: Page 402)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" },
+            { "name": "Argentine Tango (Follow)", "rulebookPage": 403, "display": "Argentine Tango (Follow: Page 403)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" }
+          ],
+          "notes": "Highest domestic pattern dance level; requires exceptional edge quality and partnering.",
+          "sources": ["https://www.usfigureskating.org/test-requirements"]
+        }
+      ]
+    },
+    {
+      "level": "International",
+      "tests": [
         {
-          "level": "International",
-          "tests": [
-            {
-              "name": "International Pattern Dance",
-              "elements": [
-                { "name": "Tango Romantica (Lead)", "rulebookPage": 444, "display": "Tango Romantica (Lead: Page 444)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" },
-                { "name": "Tango Romantica (Follow)", "rulebookPage": 445, "display": "Tango Romantica (Follow: Page 445)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" },
-                { "name": "Rhumba", "rulebookPage": 436, "display": "Rhumba (Page 436)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" },
-                { "name": "Golden Waltz (Lead)", "rulebookPage": 423, "display": "Golden Waltz (Lead: Page 423)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" },
-                { "name": "Golden Waltz (Follow)", "rulebookPage": 424, "display": "Golden Waltz (Follow: Page 424)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" },
-                { "name": "Midnight Blues (Lead)", "rulebookPage": 428, "display": "Midnight Blues (Lead: Page 428)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" },
-                { "name": "Midnight Blues (Follow)", "rulebookPage": 429, "display": "Midnight Blues (Follow: Page 429)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" },
-                { "name": "Silver Samba (Lead)", "rulebookPage": 439, "display": "Silver Samba (Lead: Page 439)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" },
-                { "name": "Silver Samba (Follow)", "rulebookPage": 440, "display": "Silver Samba (Follow: Page 440)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" },
-                { "name": "Yankee Polka (Lead)", "rulebookPage": 456, "display": "Yankee Polka (Lead: Page 456)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" },
-                { "name": "Yankee Polka (Follow)", "rulebookPage": 457, "display": "Yankee Polka (Follow: Page 457)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" }
-              ],
-              "notes": "International dances follow ISU rules; highest difficulty in timing, partnering, and edge control.",
-              "sources": [
-                "https://www.usfigureskating.org/test-requirements",
-                "https://www.isu.org"
-              ]
-            }
+          "name": "International Pattern Dance",
+          "elements": [
+            { "name": "Tango Romantica (Lead)", "rulebookPage": 444, "display": "Tango Romantica (Lead: Page 444)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" },
+            { "name": "Tango Romantica (Follow)", "rulebookPage": 445, "display": "Tango Romantica (Follow: Page 445)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" },
+            { "name": "Rhumba", "rulebookPage": 436, "display": "Rhumba (Page 436)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" },
+            { "name": "Golden Waltz (Lead)", "rulebookPage": 423, "display": "Golden Waltz (Lead: Page 423)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" },
+            { "name": "Golden Waltz (Follow)", "rulebookPage": 424, "display": "Golden Waltz (Follow: Page 424)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" },
+            { "name": "Midnight Blues (Lead)", "rulebookPage": 428, "display": "Midnight Blues (Lead: Page 428)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" },
+            { "name": "Midnight Blues (Follow)", "rulebookPage": 429, "display": "Midnight Blues (Follow: Page 429)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" },
+            { "name": "Silver Samba (Lead)", "rulebookPage": 439, "display": "Silver Samba (Lead: Page 439)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" },
+            { "name": "Silver Samba (Follow)", "rulebookPage": 440, "display": "Silver Samba (Follow: Page 440)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" },
+            { "name": "Yankee Polka (Lead)", "rulebookPage": 456, "display": "Yankee Polka (Lead: Page 456)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" },
+            { "name": "Yankee Polka (Follow)", "rulebookPage": 457, "display": "Yankee Polka (Follow: Page 457)", "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf" }
+          ],
+          "notes": "International dances follow ISU rules; highest difficulty in timing, partnering, and edge control.",
+          "sources": [
+            "https://www.usfigureskating.org/test-requirements",
+            "https://www.isu.org"
           ]
         }
       ]
     }
   ]
-}, 
+},
 
-    {
+   {
   "name": "Pairs",
   "displayName": "Pairs",
   "levels": [
@@ -658,7 +602,6 @@
         }
       ]
     },
-
     {
       "level": "Pre-Silver",
       "tests": [
@@ -680,7 +623,6 @@
         }
       ]
     },
-
     {
       "level": "Silver",
       "tests": [
@@ -702,7 +644,6 @@
         }
       ]
     },
-
     {
       "level": "Pre-Gold",
       "tests": [
@@ -724,7 +665,6 @@
         }
       ]
     },
-
     {
       "level": "Gold",
       "tests": [
@@ -734,13 +674,12 @@
             "Program duration: 3:00 ± 10 seconds",
             "Side-by-side jumps: All single and double jumps permitted; double axel optional",
             "Throw jumps: Single and double throw jumps permitted",
-            "Lifts: One overhead lift with advanced variations",
-            "Pair spin: One pair spin with advanced positions (minimum 5 revolutions)",
-            "Death spiral: One death spiral (any permitted entry)",
+            "Lifts: One overhead lift with variations permitted",
+            "Pair spin: One pair spin with advanced positions (minimum 4 revolutions)",
             "Step sequence: One choreographic step sequence",
             "Restrictions: No triple jumps"
           ],
-          "notes": "Highest domestic pairs test level; requires strong pair unison, advanced lifts, and clean execution.",
+          "notes": "Highest level of Pairs testing; requires strong unison, advanced lifts, and clean execution.",
           "sources": [
             "https://www.usfigureskating.org/test-requirements"
           ]
@@ -749,5 +688,4 @@
     }
   ]
 }
-]
-}
+
