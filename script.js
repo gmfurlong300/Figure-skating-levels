@@ -17,7 +17,7 @@ function buildCategoryButtons() {
   container.innerHTML = "";
 
   data.categories.forEach(cat => {
-    const btn = document.createElement("button");
+     btn = document.createElement("button");
 
     btn.innerHTML = `
       <span>${cat.displayName}</span>
@@ -55,21 +55,19 @@ function openTest(levelObj) {
 
   document.getElementById("testTitle").textContent = test.name;
 
-  // Elements
-// Elements
-const elList = document.getElementById("testElements");
-elList.innerHTML = "";
+// S3 Rulebook URL
+const RULEBOOK_BASE =
+  "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/usafs.sidearmsports.com/documents/2025/8/9/2025-26_Rulebook.pdf";
 
+// Elements
 test.elements.forEach(e => {
   const li = document.createElement("li");
 
   if (typeof e === "string") {
-    // Skating Skills, Free Skate, Pairs, etc.
     li.textContent = e;
   } else if (e && typeof e === "object") {
-    // Pattern Dance elements with name + rulebookPage
     const a = document.createElement("a");
-    a.href = `assets/rulebook/2025-26_Rulebook.pdf#page=${e.rulebookPage}`;
+    a.href = `${RULEBOOK_BASE}#page=${e.rulebookPage}`;
     a.target = "_blank";
     a.textContent = e.name;
     li.appendChild(a);
@@ -78,44 +76,44 @@ test.elements.forEach(e => {
   elList.appendChild(li);
 });
 
-
-  // Notes
-  document.getElementById("testNotes").textContent = test.notes || "—";
-
+// Pattern Diagram Link
 const rulebookLinkContainer = document.getElementById("rulebookLink");
-rulebookLinkContainer.innerHTML = ""; // clear previous
+rulebookLinkContainer.innerHTML = "";
 
 if (test.rulebookPage) {
   const a = document.createElement("a");
-  a.href = `assets/rulebook/2025-26_Rulebook.pdf#page=${e.rulebookPage}`;
+  a.href = `${RULEBOOK_BASE}#page=${test.rulebookPage}`;
   a.target = "_blank";
   a.textContent = `View Pattern Diagram in Rulebook (page ${test.rulebookPage})`;
   rulebookLinkContainer.appendChild(a);
 }
 
-  // Sources
-  const srcList = document.getElementById("testSources");
-  srcList.innerHTML = "";
-  test.sources.forEach(s => {
-    const li = document.createElement("li");
-    const a = document.createElement("a");
-    a.href = s;
-    a.target = "_blank";
-    a.textContent = s;
-    li.appendChild(a);
-    srcList.appendChild(li);
-  });
+// Notes
+document.getElementById("testNotes").textContent = test.notes || "—";
 
-  showScreen("testScreen");
+// Rulebook link (Pattern Diagram)
+const rulebookLinkContainer = document.getElementById("rulebookLink");
+rulebookLinkContainer.innerHTML = ""; // clear previous
+
+if (test.rulebookPage) {
+  const a = document.createElement("a");
+  a.href = `${RULEBOOK_BASE}#page=${test.rulebookPage}`;
+  a.target = "_blank";
+  a.textContent = `View Pattern Diagram in Rulebook (page ${test.rulebookPage})`;
+  rulebookLinkContainer.appendChild(a);
 }
 
+// Sources
+const srcList = document.getElementById("testSources");
+srcList.innerHTML = "";
+test.sources.forEach(s => {
+  const li = document.createElement("li");
+  const a = document.createElement("a");
+  a.href = s;
+  a.target = "_blank";
+  a.textContent = s;
+  li.appendChild(a);
+  srcList.appendChild(li);
+});
 
-function goHome() {
-  showScreen("homeScreen");
-}
-
-function goLevels() {
-  showScreen("levelScreen");
-}
-
-loadData();
+showScreen("testScreen");
