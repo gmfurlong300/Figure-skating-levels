@@ -111,3 +111,11 @@ function openTest(levelObj) {
 }
 loadData();
 
+async function loadData() {
+  const res = await fetch(`data/tests.json?v=${Date.now()}`);
+  console.log("fetch status", res.status);
+  data = await res.json();
+  console.log("data loaded", data);
+  buildCategoryButtons();
+}
+
