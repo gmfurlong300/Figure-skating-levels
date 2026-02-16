@@ -91,10 +91,8 @@ if (test.rulebookPage) {
 // Notes
 document.getElementById("testNotes").textContent = test.notes || "—";
 
-// Rulebook link (Pattern Diagram)
-const rulebookLinkContainer = document.getElementById("rulebookLink");
-rulebookLinkContainer.innerHTML = ""; // clear previous
-
+// Rulebook link (Pattern Diagram) rulebookLinkContainer.innerHTML = ""; // do NOT redeclare it
+  
 if (test.rulebookPage) {
   const a = document.createElement("a");
   a.href = `${RULEBOOK_BASE}#page=${test.rulebookPage}`;
