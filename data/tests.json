@@ -656,7 +656,7 @@
       ]
     },
 
-    {
+       {
       "level": "International",
       "tests": [
         {
@@ -703,66 +703,14 @@
               "rulebookPage": 429,
               "display": "Midnight Blues (Follow: Page 429)",
               "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/usafs.sidearmsports.com/documents/2025/8/9/2025-26_Rulebook.pdf#page=429"
-            },
-            {
-              "name": "Silver Samba (Lead)",
-              "rulebookPage": 439,
-              "display": "Silver Samba (Lead: Page 439)",
-              "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/usafs.sidearmsports.com/documents/2025/8/9/2025-26_Rulebook.pdf#page=439"
-            },
-            {
-              "name": "Silver Samba (Follow)",
-              "rulebookPage": 440,
-              "display": "Silver Samba (Follow: Page 440)",
-              "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/usafs.sidearmsports.com/documents/2025/8/9/2025-26_Rulebook.pdf#page=440"
-            },
-            {
-              "name": "Yankee Polka (Lead)",
-              "rulebookPage": 456,
-              "display": "Yankee Polka (Lead: Page 456)",
-              "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/usafs.sidearmsports.com/documents/2025/8/9/2025-26_Rulebook.pdf#page=456"
-            },
-            {
-              "name": "Yankee Polka (Follow)",
-              "rulebookPage": 457,
-              "display": "Yankee Polka (Follow: Page 457)",
-              "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/usafs.sidearmsports.com/documents/2025/8/9/2025-26_Rulebook.pdf#page=457"
             }
           ],
-          "notes": "International dances follow ISU rules; highest difficulty in timing, partnering, and edge control.",
-          "sources": [
-            "https://www.usfigureskating.org/test-requirements",
-            "https://www.isu.org"
-          ]
+          "notes": "Highest international pattern dances; require exceptional edge quality, control, and expression.",
+          "sources": ["https://www.usfigureskating.org/test-requirements"]
         }
       ]
     }
   ]
-},
-{
-  "level": "Resources",
-  "links": [
-    {
-      "name": "USFS Rulebook (2025–26)",
-      "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/usafs.sidearmsports.com/documents/2025/8/9/2025-26_Rulebook.pdf"
-    },
-    {
-      "name": "USFS Test Requirements",
-      "url": "https://www.usfigureskating.org/test-requirements"
-    },
-    {
-      "name": "USFS Test Forms",
-      "url": "https://www.usfigureskating.org/skate/test-structure/test-forms"
-    },
-    {
-      "name": "USFS Pattern Dance Music",
-      "url": "https://www.usfigureskating.org/skate/test-structure/pattern-dance-music"
-    },
-    {
-      "name": "FDL Blue Line Figure Skating Page",
-      "url": "https://www.fdlblueline.com/page/show/2237-figure-skating"
-    }
-  ]
 }
-
-
+]
+}
