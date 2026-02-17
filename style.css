@@ -1,12 +1,14 @@
 .card {
   background: white;
-  padding: 1.5rem;
+  padding: 1.25rem;
   border-radius: 0.5rem;
   border: 1px solid #cbd5e1;
+  width: 92%; /* Added width for mobile */
   max-width: 700px;
-  color: #003366;   /* dark blue text so content is visible */
+  margin: 1rem auto; /* Centers the card */
+  color: #003366;
+  box-sizing: border-box;
 }
-
 
 body {
   font-family: system-ui, sans-serif;
@@ -25,16 +27,16 @@ header {
 #description {
   background-color: white;
   color: #004aad;
-  padding: 0.75rem 1rem;
-  width: calc(100% - 0.5in); /* 1/4 inch on each side */
-  max-width: none;
-  margin: 0.0rem auto;      /* ← much smaller space below */
+  padding: 1rem;
+  /* width: 92% is safer than calc for mobile centering */
+  width: 92%; 
+  max-width: 800px;
+  margin: 1rem auto;
   border-radius: 8px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   line-height: 1.4;
+  box-sizing: border-box; /* Ensures padding doesn't add to width */
 }
-
-
 
 /* Hidden by default — JS will show it only on home screen */
 #description.hidden {
@@ -45,11 +47,38 @@ header {
   margin-top: 0rem;   /* reduce space above categories */
 }
 
+/* Updated Grid for all screens */
 .button-grid {
   display: grid;
-  grid-template-columns: repeat(5, 1fr); /* exactly 5 buttons per row */
+  /* This tells the grid: "Make buttons at least 140px wide, but fill the row" */
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); 
   gap: 1rem;
-  margin-top: 2rem;
+  padding: 1rem; /* Prevents buttons from touching screen edges */
+  margin-top: 1rem;
+}
+
+/* Updated Button heights for mobile */
+#categoryButtons button,
+#levelButtons button {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  align-items: center;
+  
+  /* Use min-height instead of a fixed height so long text doesn't overflow */
+  min-height: 160px; 
+  height: auto;
+  padding: 15px;
+
+  background-color: white;
+  color: #003366;
+  font-weight: bold;
+  font-size: 1.1rem; /* Slightly smaller for mobile scaling */
+
+  border: 3px solid #003366;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease;
 }
 
 /* ICON SIZE + POSITION */
@@ -102,4 +131,8 @@ header {
 .rulebook-link a:hover {
   text-decoration: underline;
 }
-
+@media (min-width: 900px) {
+  .button-grid {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
