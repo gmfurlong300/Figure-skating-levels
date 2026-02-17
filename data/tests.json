@@ -536,7 +536,7 @@
         }
       ]
     },
-    {
+   {
       "name": "Resources",
       "displayName": "Resources",
       "levels": [
@@ -546,11 +546,25 @@
             {
               "name": "Useful Links",
               "elements": [
-                { "name": "USFS Rulebook (2025–26)", "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/usafs.sidearmsports.com/documents/2025/8/9/2025-26_Rulebook.pdf" },
-                { "name": "USFS Test Requirements", "url": "https://www.usfigureskating.org/test-requirements" },
-                { "name": "USFS Members Only (Login Required)", "url": "https://www.usfsaonline.org" },
-                { "name": "USFS Forms, Policies & Handbooks", "url": "https://www.usfigureskating.org/about/forms-and-policies" }
-              ]
+                {
+                  "name": "USFS Rulebook (2025–26)",
+                  "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/usafs.sidearmsports.com/documents/2025/8/9/2025-26_Rulebook.pdf"
+                },
+                {
+                  "name": "USFS Test Requirements",
+                  "url": "https://www.usfigureskating.org/test-requirements"
+                },
+                {
+                  "name": "USFS Members Only (Login Required)",
+                  "url": "https://www.usfsaonline.org"
+                },
+                {
+                  "name": "USFS Forms, Policies & Handbooks",
+                  "url": "https://www.usfigureskating.org/about/forms-and-policies"
+                }
+              ],
+              "notes": "Official documentation and membership portals for U.S. Figure Skating.",
+              "sources": ["https://www.usfigureskating.org"]
             }
           ]
         }
