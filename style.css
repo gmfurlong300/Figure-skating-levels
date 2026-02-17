@@ -25,11 +25,11 @@ header {
 #description {
   background-color: white;
   color: #004aad;
-  padding: 0.75rem 1rem;     /* same height as your banner */
-  width: calc(100% - 0.5in); /* leaves 1/4 inch on each side */
-  max-width: none;           /* allow full width minus margins */
-  margin: 0.5rem auto;       /* small space above/below */
-  border-radius: 8px;        /* box shape */
+  padding: 0.75rem 1rem;
+  width: calc(100% - 0.5in); /* 1/4 inch on each side */
+  max-width: none;
+  margin: 0.25rem auto;      /* ← much smaller space below */
+  border-radius: 8px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   line-height: 1.4;
 }
@@ -39,6 +39,10 @@ header {
 /* Hidden by default — JS will show it only on home screen */
 #description.hidden {
   display: none;
+}
+
+#homeScreen {
+  margin-top: 0.25rem;   /* reduce space above categories */
 }
 
 .button-grid {
