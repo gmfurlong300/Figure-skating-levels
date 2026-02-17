@@ -460,9 +460,9 @@
         {
           "name": "Preliminary Pattern Dance",
           "elements": [
-            {"name": "Dutch Waltz","rulebookPage": 340,"display": "Dutch Waltz (Page 340)","url": "assets/rulebook/USFS-2025-26_Rulebook.pdf#page=340"}
+            {"name": "Dutch Waltz","rulebookPage": 340,"display": "Dutch Waltz (Page 340)","url": "assets/rulebook/USFS-2025-26_Rulebook.pdf#page=340"},
             { "name": "Canasta Tango", "rulebookPage": 324, "display": "Canasta Tango (Page 324)", "url": "assets/rulebook/USFS-2025-26_Rulebook.pdf#page=324"},
-            { "name": "Rhythm Blues", "rulebookPage": 344, "display": "Rhythm Blues (Page 344)", "url": "assets/rulebook/USFS-2025-26_Rulebook.pdf#page=344" }
+            { "name": "Rhythm Blues", "rulebookPage": 344, "display": "Rhythm Blues (Page 344)", "url": "assets/rulebook/USFS-2025-26_Rulebook.pdf#page=344"},
           ],
           "notes": "Introductory pattern dances focusing on basic timing, edges, and pattern accuracy.",
           "sources": ["https://www.usfigureskating.org/test-requirements"]
