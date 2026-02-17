@@ -42,7 +42,7 @@ header {
 }
 
 #homeScreen {
-  margin-top: 0.25rem;   /* reduce space above categories */
+  margin-top: 0rem;   /* reduce space above categories */
 }
 
 .button-grid {
