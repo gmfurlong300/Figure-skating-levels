@@ -734,117 +734,30 @@
     }
   ]
 },
-   {
-  "name": "Pairs",
-  "displayName": "Pairs",
-  "levels": [
+{
+  "level": "Resources",
+  "links": [
     {
-      "level": "Bronze",
-      "tests": [
-        {
-          "name": "Bronze Pairs",
-          "elements": [
-            "Program duration: 2:00 ± 10 seconds",
-            "Side-by-side jumps: Single jumps only (no axel required)",
-            "Throw jumps: Single throw jump permitted",
-            "Lifts: One lift (waist-level only; no one-arm holds)",
-            "Pair spin: One pair spin (minimum 3 revolutions)",
-            "Step sequence: One choreographic step sequence",
-            "Restrictions: No overhead lifts, no death spirals, no double jumps"
-          ],
-          "notes": "Introductory pairs level focusing on unison, timing, and basic pair elements.",
-          "sources": [
-            "https://www.usfigureskating.org/test-requirements"
-          ]
-        }
-      ]
+      "name": "USFS Rulebook (2025–26)",
+      "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/usafs.sidearmsports.com/documents/2025/8/9/2025-26_Rulebook.pdf"
     },
     {
-      "level": "Pre-Silver",
-      "tests": [
-        {
-          "name": "Pre-Silver Pairs",
-          "elements": [
-            "Program duration: 2:10 ± 10 seconds",
-            "Side-by-side jumps: Single jumps including axel permitted",
-            "Throw jumps: Single throw jumps permitted",
-            "Lifts: One lift (waist or shoulder level; no one-arm holds)",
-            "Pair spin: One pair spin (minimum 3 revolutions)",
-            "Step sequence: One choreographic step sequence",
-            "Restrictions: No overhead lifts, no death spirals, no double jumps"
-          ],
-          "notes": "Introduces more advanced lifts and allows axel jumps.",
-          "sources": [
-            "https://www.usfigureskating.org/test-requirements"
-          ]
-        }
-      ]
+      "name": "USFS Test Requirements",
+      "url": "https://www.usfigureskating.org/test-requirements"
     },
     {
-      "level": "Silver",
-      "tests": [
-        {
-          "name": "Silver Pairs",
-          "elements": [
-            "Program duration: 2:20 ± 10 seconds",
-            "Side-by-side jumps: Single jumps including axel required; double salchow and double toe loop permitted",
-            "Throw jumps: Single throw jumps required; double throw jumps permitted",
-            "Lifts: One overhead lift permitted (no difficult variations)",
-            "Pair spin: One pair spin (minimum 4 revolutions)",
-            "Step sequence: One choreographic step sequence",
-            "Restrictions: No death spirals"
-          ],
-          "notes": "First level allowing overhead lifts and double jumps.",
-          "sources": [
-            "https://www.usfigureskating.org/test-requirements"
-          ]
-        }
-      ]
+      "name": "USFS Test Forms",
+      "url": "https://www.usfigureskating.org/skate/test-structure/test-forms"
     },
     {
-      "level": "Pre-Gold",
-      "tests": [
-        {
-          "name": "Pre-Gold Pairs",
-          "elements": [
-            "Program duration: 2:30 ± 10 seconds",
-            "Side-by-side jumps: Single jumps and selected double jumps permitted (no 2A)",
-            "Throw jumps: Single and double throw jumps permitted",
-            "Lifts: One overhead lift with variations permitted",
-            "Pair spin: One pair spin with advanced positions (minimum 4 revolutions)",
-            "Step sequence: One choreographic step sequence",
-            "Restrictions: No triple jumps, no death spirals"
-          ],
-          "notes": "Higher difficulty in lifts and throws; strong unison expected.",
-          "sources": [
-            "https://www.usfigureskating.org/test-requirements"
-          ]
-        }
-      ]
+      "name": "USFS Pattern Dance Music",
+      "url": "https://www.usfigureskating.org/skate/test-structure/pattern-dance-music"
     },
     {
-      "level": "Gold",
-      "tests": [
-        {
-          "name": "Gold Pairs",
-          "elements": [
-            "Program duration: 3:00 ± 10 seconds",
-            "Side-by-side jumps: All single and double jumps permitted; double axel optional",
-            "Throw jumps: Single and double throw jumps permitted",
-            "Lifts: One overhead lift with variations permitted",
-            "Pair spin: One pair spin with advanced positions (minimum 4 revolutions)",
-            "Step sequence: One choreographic step sequence",
-            "Restrictions: No triple jumps"
-          ],
-          "notes": "Highest level of Pairs testing; requires strong unison, advanced lifts, and clean execution.",
-          "sources": [
-            "https://www.usfigureskating.org/test-requirements"
-          ]
-        }
-      ]
+      "name": "FDL Blue Line Figure Skating Page",
+      "url": "https://www.fdlblueline.com/page/show/2237-figure-skating"
     }
   ]
 }
-]
-}
+
 
