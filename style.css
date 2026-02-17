@@ -25,14 +25,15 @@ header {
 #description {
   background-color: white;
   color: #004aad;
-  padding: 0.75rem 2rem;
-  width: 90%;
-  max-width: 1500px;
-  border-radius: 8px;
-  margin: 0 0 0.5rem 0;   /* ← this controls the space below the banner */
+  padding: 0.75rem 1rem;     /* same height as your banner */
+  width: calc(100% - 0.5in); /* leaves 1/4 inch on each side */
+  max-width: none;           /* allow full width minus margins */
+  margin: 0.5rem auto;       /* small space above/below */
+  border-radius: 8px;        /* box shape */
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   line-height: 1.4;
 }
+
 
 
 /* Hidden by default — JS will show it only on home screen */
