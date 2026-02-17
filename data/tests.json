@@ -10,16 +10,13 @@
         {
           "name": "Pre-Preliminary Skating Skills",
           "elements": [
-            { "name": "Forward perimeter stroking", "rulebookPage": 251 },
-            { "name": "Basic consecutive edges", "rulebookPage": 252 },
-            { "name": "Forward right and left foot spirals", "rulebookPage": 253 },
-            { "name": "Waltz eight", "rulebookPage": 254 }
+            { "name": "Forward perimeter stroking", "rulebookPage": 251, "url": "assets/rulebook/USFS-2025-26_Rulebook.pdf#page=251" },
+            { "name": "Basic consecutive edges", "rulebookPage": 252, "url": "assets/rulebook/USFS-2025-26_Rulebook.pdf#page=252" },
+            { "name": "Forward right and left foot spirals", "rulebookPage": 253, "url": "assets/rulebook/USFS-2025-26_Rulebook.pdf#page=253" },
+            { "name": "Waltz eight", "rulebookPage": 254, "url": "assets/rulebook/USFS-2025-26_Rulebook.pdf#page=254" }
           ],
           "notes": "Formerly Pre-Preliminary Moves in the Field. Basic edge quality, posture, and control emphasized.",
-          "sources": [
-            "https://www.usfigureskating.org/test-requirements",
-            "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/usafs.sidearmsports.com/documents/2025/8/9/2025-26_Rulebook.pdf?inline=1"
-          ]
+          "sources": ["https://www.usfigureskating.org/test-requirements"]
         }
       ]
     },
@@ -30,18 +27,15 @@
         {
           "name": "Preliminary Skating Skills",
           "elements": [
-            { "name": "Forward and backward crossovers", "rulebookPage": 255 },
-            { "name": "Consecutive outside and inside spirals", "rulebookPage": 256 },
-            { "name": "Forward power three-turns", "rulebookPage": 257 },
-            { "name": "Alternating forward three-turns", "rulebookPage": 258 },
-            { "name": "Forward circle eight", "rulebookPage": 259 },
-            { "name": "Alternating backward crossovers to BO edges", "rulebookPage": 260 }
+            { "name": "Forward and backward crossovers", "rulebookPage": 255, "url": "assets/rulebook/USFS-2025-26_Rulebook.pdf#page=255" },
+            { "name": "Consecutive outside and inside spirals", "rulebookPage": 256, "url": "assets/rulebook/USFS-2025-26_Rulebook.pdf#page=256" },
+            { "name": "Forward power three-turns", "rulebookPage": 257, "url": "assets/rulebook/USFS-2025-26_Rulebook.pdf#page=257" },
+            { "name": "Alternating forward three-turns", "rulebookPage": 258, "url": "assets/rulebook/USFS-2025-26_Rulebook.pdf#page=258" },
+            { "name": "Forward circle eight", "rulebookPage": 259, "url": "assets/rulebook/USFS-2025-26_Rulebook.pdf#page=259" },
+            { "name": "Alternating backward crossovers to BO edges", "rulebookPage": 260, "url": "assets/rulebook/USFS-2025-26_Rulebook.pdf#page=260" }
           ],
           "notes": "Focus on power generation, clean edges, and controlled turns.",
-          "sources": [
-            "https://www.usfigureskating.org/test-requirements",
-            "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/usafs.sidearmsports.com/documents/2025/8/9/2025-26_Rulebook.pdf?inline=1"
-          ]
+          "sources": ["https://www.usfigureskating.org/test-requirements"]
         }
       ]
     },
@@ -52,18 +46,15 @@
         {
           "name": "Pre-Bronze Skating Skills",
           "elements": [
-            { "name": "Forward and backward perimeter power stroking", "rulebookPage": 261 },
-            { "name": "FO-BI three-turns in the field", "rulebookPage": 262 },
-            { "name": "FI-BO three-turns in the field", "rulebookPage": 263 },
-            { "name": "Forward and backward power change of edge pulls", "rulebookPage": 264 },
-            { "name": "Backward circle eight", "rulebookPage": 265 },
-            { "name": "Five-step C step sequence", "rulebookPage": 266 }
+            { "name": "Forward and backward perimeter power stroking", "rulebookPage": 261, "url": "assets/rulebook/USFS-2025-26_Rulebook.pdf#page=261" },
+            { "name": "FO-BI three-turns in the field", "rulebookPage": 262, "url": "assets/rulebook/USFS-2025-26_Rulebook.pdf#page=262" },
+            { "name": "FI-BO three-turns in the field", "rulebookPage": 263, "url": "assets/rulebook/USFS-2025-26_Rulebook.pdf#page=263" },
+            { "name": "Forward and backward power change of edge pulls", "rulebookPage": 264, "url": "assets/rulebook/USFS-2025-26_Rulebook.pdf#page=264" },
+            { "name": "Backward circle eight", "rulebookPage": 265, "url": "assets/rulebook/USFS-2025-26_Rulebook.pdf#page=265" },
+            { "name": "Five-step C step sequence", "rulebookPage": 266, "url": "assets/rulebook/USFS-2025-26_Rulebook.pdf#page=266" }
           ],
           "notes": "Introduces more advanced power generation and turn control.",
-          "sources": [
-            "https://www.usfigureskating.org/test-requirements",
-            "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/usafs.sidearmsports.com/documents/2025/8/9/2025-26_Rulebook.pdf?inline=1"
-          ]
+          "sources": ["https://www.usfigureskating.org/test-requirements"]
         }
       ]
     },
@@ -74,18 +65,15 @@
         {
           "name": "Bronze Skating Skills",
           "elements": [
-            { "name": "Forward power circle", "rulebookPage": 267 },
-            { "name": "Backward power circle", "rulebookPage": 268 },
-            { "name": "Eight-step C step sequence", "rulebookPage": 269 },
-            { "name": "Forward and backward free skate cross strokes", "rulebookPage": 270 },
-            { "name": "Backward power three-turns", "rulebookPage": 271 },
-            { "name": "Forward double three-turns", "rulebookPage": 272 }
+            { "name": "Forward power circle", "rulebookPage": 267, "url": "assets/rulebook/USFS-2025-26_Rulebook.pdf#page=267" },
+            { "name": "Backward power circle", "rulebookPage": 268, "url": "assets/rulebook/USFS-2025-26_Rulebook.pdf#page=268" },
+            { "name": "Eight-step C step sequence", "rulebookPage": 269, "url": "assets/rulebook/USFS-2025-26_Rulebook.pdf#page=269" },
+            { "name": "Forward and backward free skate cross strokes", "rulebookPage": 270, "url": "assets/rulebook/USFS-2025-26_Rulebook.pdf#page=270" },
+            { "name": "Backward power three-turns", "rulebookPage": 271, "url": "assets/rulebook/USFS-2025-26_Rulebook.pdf#page=271" },
+            { "name": "Forward double three-turns", "rulebookPage": 272, "url": "assets/rulebook/USFS-2025-26_Rulebook.pdf#page=272" }
           ],
           "notes": "Requires stronger edge control and mastery of brackets.",
-          "sources": [
-            "https://www.usfigureskating.org/test-requirements",
-            "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/usafs.sidearmsports.com/documents/2025/8/9/2025-26_Rulebook.pdf?inline=1"
-          ]
+          "sources": ["https://www.usfigureskating.org/test-requirements"]
         }
       ]
     },
@@ -96,17 +84,14 @@
         {
           "name": "Pre-Silver Skating Skills",
           "elements": [
-            { "name": "Backward double three-turns", "rulebookPage": 273 },
-            { "name": "Spiral sequence", "rulebookPage": 274 },
-            { "name": "Brackets in the field sequence", "rulebookPage": 275 },
-            { "name": "Forward twizzles", "rulebookPage": 276 },
-            { "name": "Inside slide chassé pattern", "rulebookPage": 277 }
+            { "name": "Backward double three-turns", "rulebookPage": 273, "url": "assets/rulebook/USFS-2025-26_Rulebook.pdf#page=273" },
+            { "name": "Spiral sequence", "rulebookPage": 274, "url": "assets/rulebook/USFS-2025-26_Rulebook.pdf#page=274" },
+            { "name": "Brackets in the field sequence", "rulebookPage": 275, "url": "assets/rulebook/USFS-2025-26_Rulebook.pdf#page=275" },
+            { "name": "Forward twizzles", "rulebookPage": 276, "url": "assets/rulebook/USFS-2025-26_Rulebook.pdf#page=276" },
+            { "name": "Inside slide chassé pattern", "rulebookPage": 277, "url": "assets/rulebook/USFS-2025-26_Rulebook.pdf#page=277" }
           ],
           "notes": "Introduces rockers and counters with power and flow.",
-          "sources": [
-            "https://www.usfigureskating.org/test-requirements",
-            "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/usafs.sidearmsports.com/documents/2025/8/9/2025-26_Rulebook.pdf?inline=1"
-          ]
+          "sources": ["https://www.usfigureskating.org/test-requirements"]
         }
       ]
     },
@@ -117,18 +102,15 @@
         {
           "name": "Silver Skating Skills",
           "elements": [
-            { "name": "Inside three-turns / rocker S steps", "rulebookPage": 278 },
-            { "name": "Forward and backward outside counters", "rulebookPage": 279 },
-            { "name": "Forward and backward inside counters", "rulebookPage": 280 },
-            { "name": "Forward loops", "rulebookPage": 281 },
-            { "name": "Backward rocker S step sequence", "rulebookPage": 282 },
-            { "name": "Backward twizzles", "rulebookPage": 283 }
+            { "name": "Inside three-turns / rocker S steps", "rulebookPage": 278, "url": "assets/rulebook/USFS-2025-26_Rulebook.pdf#page=278" },
+            { "name": "Forward and backward outside counters", "rulebookPage": 279, "url": "assets/rulebook/USFS-2025-26_Rulebook.pdf#page=279" },
+            { "name": "Forward and backward inside counters", "rulebookPage": 280, "url": "assets/rulebook/USFS-2025-26_Rulebook.pdf#page=280" },
+            { "name": "Forward loops", "rulebookPage": 281, "url": "assets/rulebook/USFS-2025-26_Rulebook.pdf#page=281" },
+            { "name": "Backward rocker S step sequence", "rulebookPage": 282, "url": "assets/rulebook/USFS-2025-26_Rulebook.pdf#page=282" },
+            { "name": "Backward twizzles", "rulebookPage": 283, "url": "assets/rulebook/USFS-2025-26_Rulebook.pdf#page=283" }
           ],
           "notes": "Requires mastery of multi-turn sequences and strong body alignment.",
-          "sources": [
-            "https://www.usfigureskating.org/test-requirements",
-            "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/usafs.sidearmsports.com/documents/2025/8/9/2025-26_Rulebook.pdf?inline=1"
-          ]
+          "sources": ["https://www.usfigureskating.org/test-requirements"]
         }
       ]
     },
@@ -139,18 +121,15 @@
         {
           "name": "Pre-Gold Skating Skills",
           "elements": [
-            { "name": "Forward and backward outside rockers", "rulebookPage": 284 },
-            { "name": "Forward and backward inside rockers", "rulebookPage": 285 },
-            { "name": "Power pulls", "rulebookPage": 286 },
-            { "name": "S step sequence", "rulebookPage": 287 },
-            { "name": "Backward loop pattern", "rulebookPage": 288 },
-            { "name": "Straight line step sequence", "rulebookPage": 289 }
+            { "name": "Forward and backward outside rockers", "rulebookPage": 284, "url": "assets/rulebook/USFS-2025-26_Rulebook.pdf#page=284" },
+            { "name": "Forward and backward inside rockers", "rulebookPage": 285, "url": "assets/rulebook/USFS-2025-26_Rulebook.pdf#page=285" },
+            { "name": "Power pulls", "rulebookPage": 286, "url": "assets/rulebook/USFS-2025-26_Rulebook.pdf#page=286" },
+            { "name": "S step sequence", "rulebookPage": 287, "url": "assets/rulebook/USFS-2025-26_Rulebook.pdf#page=287" },
+            { "name": "Backward loop pattern", "rulebookPage": 288, "url": "assets/rulebook/USFS-2025-26_Rulebook.pdf#page=288" },
+            { "name": "Straight line step sequence", "rulebookPage": 289, "url": "assets/rulebook/USFS-2025-26_Rulebook.pdf#page=289" }
           ],
           "notes": "High-level edge control and multi-turn sequences required.",
-          "sources": [
-            "https://www.usfigureskating.org/test-requirements",
-            "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/usafs.sidearmsports.com/documents/2025/8/9/2025-26_Rulebook.pdf?inline=1"
-          ]
+          "sources": ["https://www.usfigureskating.org/test-requirements"]
         }
       ]
     },
@@ -161,17 +140,14 @@
         {
           "name": "Gold Skating Skills",
           "elements": [
-            { "name": "Sustained edge step", "rulebookPage": 290 },
-            { "name": "Spiral sequence", "rulebookPage": 291 },
-            { "name": "BO power double three-turns to power double inside rockers", "rulebookPage": 292 },
-            { "name": "BI power double three-turns to power double outside rockers", "rulebookPage": 293 },
-            { "name": "Serpentine step sequence", "rulebookPage": 294 }
+            { "name": "Sustained edge step", "rulebookPage": 290, "url": "assets/rulebook/USFS-2025-26_Rulebook.pdf#page=290" },
+            { "name": "Spiral sequence", "rulebookPage": 291, "url": "assets/rulebook/USFS-2025-26_Rulebook.pdf#page=291" },
+            { "name": "BO power double three-turns to power double inside rockers", "rulebookPage": 292, "url": "assets/rulebook/USFS-2025-26_Rulebook.pdf#page=292" },
+            { "name": "BI power double three-turns to power double outside rockers", "rulebookPage": 293, "url": "assets/rulebook/USFS-2025-26_Rulebook.pdf#page=293" },
+            { "name": "Serpentine step sequence", "rulebookPage": 294, "url": "assets/rulebook/USFS-2025-26_Rulebook.pdf#page=294" }
           ],
           "notes": "Highest level of Skating Skills. Requires exceptional edge quality, power, and control.",
-          "sources": [
-            "https://www.usfigureskating.org/test-requirements",
-            "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/usafs.sidearmsports.com/documents/2025/8/9/2025-26_Rulebook.pdf?inline=1"
-          ]
+          "sources": ["https://www.usfigureskating.org/test-requirements"]
         }
       ]
     }
