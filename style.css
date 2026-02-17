@@ -26,9 +26,9 @@ header {
   background-color: white;
   color: #004aad;
   padding: 0.75rem 2rem;
-  width: 100%;
+  width: 90%;
   max-width: none;
-  border-radius: 0;
+  border-radius: 8px;
   margin: 0 0 0.5rem 0;   /* ← this controls the space below the banner */
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   line-height: 1.4;
