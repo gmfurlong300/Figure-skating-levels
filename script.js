@@ -57,8 +57,7 @@ function openTest(levelObj) {
 
   document.getElementById("testTitle").textContent = test.name;
 
-  const RULEBOOK_BASE =
-    "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/usafs.sidearmsports.com/documents/2025/8/9/2025-26_Rulebook.pdf";
+const RULEBOOK_BASE = "assets/rulebook/USFS-2025-26_Rulebook.pdf";
 
   const elList = document.getElementById("testElements");
   elList.innerHTML = "";
@@ -69,11 +68,11 @@ function openTest(levelObj) {
     if (typeof e === "string") {
       li.textContent = e;
     } else if (e && typeof e === "object") {
-      const a = document.createElement("a");
-      a.href = `${RULEBOOK_BASE}#page=${e.rulebookPage}`;
-      a.target = "_blank";
-      a.textContent = e.name;
-      li.appendChild(a);
+    const a = document.createElement("a");
+    a.href = e.url || `${RULEBOOK_BASE}#page=${e.rulebookPage}`;
+    a.target = "_blank";
+    a.textContent = e.display || e.name;
+    li.appendChild(a);
     }
 
     elList.appendChild(li);
