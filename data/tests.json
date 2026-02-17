@@ -450,7 +450,7 @@
   ]
 },
 
-   {
+{
   "name": "Pattern Dance",
   "displayName": "Pattern Dance",
   "levels": [
@@ -469,6 +469,7 @@
         }
       ]
     },
+
     {
       "level": "Pre-Bronze",
       "tests": [
@@ -484,6 +485,7 @@
         }
       ]
     },
+
     {
       "level": "Bronze",
       "tests": [
@@ -499,8 +501,7 @@
         }
       ]
     },
-{
-  "levels": [
+
     {
       "level": "Pre-Silver",
       "tests": [
@@ -531,6 +532,7 @@
         }
       ]
     },
+
     {
       "level": "Silver",
       "tests": [
@@ -561,6 +563,7 @@
         }
       ]
     },
+
     {
       "level": "Pre-Gold",
       "tests": [
@@ -597,6 +600,7 @@
         }
       ]
     },
+
     {
       "level": "Gold",
       "tests": [
@@ -651,6 +655,7 @@
         }
       ]
     },
+
     {
       "level": "International",
       "tests": [
