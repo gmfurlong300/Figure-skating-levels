@@ -713,4 +713,50 @@
   ]
 }
 ]
+}, 
+{
+  "name": "Resources",
+  "displayName": "Resources",
+  "levels": [
+    {
+      "level": "General",
+      "tests": [
+        {
+          "name": "Useful Links",
+          "elements": [
+            {
+              "name": "USFS Rulebook (2025–26)",
+              "url": "https://usfigureskating.org/documents/2025/8/9/2025-26_Rulebook.pdf"
+            },
+            {
+              "name": "USFS Test Requirements",
+              "url": "https://www.usfigureskating.org/test-requirements"
+            },
+            {
+              "name": "USFS Members Only (Login Required)",
+              "url": "https://www.usfsaonline.org"
+            },
+            {
+              "name": "USFS Forms, Policies & Handbooks",
+              "url": "https://www.usfigureskating.org/about/policies"
+            },
+            {
+              "name": "EntryEeze",
+              "url": "https://comp.entryeeze.com"
+            },
+            {
+              "name": "Ice Dance Music Resource (FDL Blue Line)",
+              "url": "https://www.fdlblueline.com/page/show/2237-figure-skating"
+            }
+          ],
+          "notes": "Central hub for rulebooks, handbooks, official USFS resources, and commonly used skating tools.",
+          "sources": [
+            "https://www.usfigureskating.org",
+            "https://www.fdlblueline.com/page/show/2237-figure-skating"
+          ]
+        }
+      ]
+    }
+  ]
 }
+
