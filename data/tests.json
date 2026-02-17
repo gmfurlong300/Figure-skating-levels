@@ -715,6 +715,7 @@
 {
   "name": "Resources",
   "displayName": "Resources",
+"icon": "assets/icons/book.png",
   "levels": [
     {
       "level": "General",
